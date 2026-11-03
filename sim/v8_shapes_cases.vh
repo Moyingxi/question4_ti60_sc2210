@@ -1,0 +1,1 @@
+`define V8_SHAPE_CASES 95

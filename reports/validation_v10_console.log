@@ -1,0 +1,53 @@
+{
+  "project": "edge_camera_v10",
+  "generated": "2026-11-03T20:55:39.470658",
+  "status": "PASS",
+  "checks": {
+    "current_build": true,
+    "top_only_version_rename": true,
+    "io_clock_constraints_identity": true,
+    "retained_rtl_ip_debug_fixture_identity": true,
+    "regressions": true,
+    "local_project": true,
+    "unreachable_files_removed": true,
+    "timing": true,
+    "csi_hold_margin": true,
+    "resources": true,
+    "shape_generator_identity": true
+  },
+  "hardware_programmed": false,
+  "hardware_validation": "NOT_REQUESTED_DO_NOT_INHERIT_V9_ACCEPTANCE",
+  "scope": "Packaging and unreferenced-file cleanup; active functionality preserved",
+  "bit_sha256": "36e1e5c3d2c3e49f56c66c0166cf3eb412e902dda73c8eac1edd0407339744d0",
+  "source_identity_changes": [],
+  "test_counts": {
+    "executed_v10": 2,
+    "inherited_exact_dependencies": 37
+  },
+  "timing": {
+    "setup_min_ns": 0.04,
+    "hold_min_ns": 0.027,
+    "pixel_setup_ns": 0.04
+  },
+  "csi_hold_uncertainties_ns": [
+    0.57
+  ],
+  "resources": {
+    "XLR": {
+      "used": 60712,
+      "total": 60800
+    },
+    "RAM": {
+      "used": 255,
+      "total": 256
+    },
+    "DSP": {
+      "used": 17,
+      "total": 160
+    },
+    "GBUF": {
+      "used": 11,
+      "total": 32
+    }
+  }
+}

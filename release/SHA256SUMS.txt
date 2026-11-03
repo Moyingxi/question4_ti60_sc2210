@@ -1,0 +1,2 @@
+36e1e5c3d2c3e49f56c66c0166cf3eb412e902dda73c8eac1edd0407339744d0  ../outflow/edge_camera_v10.bit
+e0d54161f54bf076a63fc201f6a8bbace9dcc027b3f9e414d47457bdbc9be70b  edge_camera_v10_project.zip

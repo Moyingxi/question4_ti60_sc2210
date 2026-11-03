@@ -1,0 +1,47 @@
+{
+  "project": "edge_camera_v10",
+  "status": "RELEASE_BUILD_VERIFIED_NOT_PROGRAMMED",
+  "generated": "2026-11-03T20:55:41.588475",
+  "bit": "outflow/edge_camera_v10.bit",
+  "bit_sha256": "36e1e5c3d2c3e49f56c66c0166cf3eb412e902dda73c8eac1edd0407339744d0",
+  "bit_file_bytes": 3168453,
+  "hardware_programmed": false,
+  "flash_written": false,
+  "frozen": false,
+  "v9_frozen_419_files_unchanged": true,
+  "timing": {
+    "setup_min_ns": 0.04,
+    "hold_min_ns": 0.027,
+    "pixel_setup_ns": 0.04
+  },
+  "resources": {
+    "XLR": {
+      "used": 60712,
+      "total": 60800
+    },
+    "RAM": {
+      "used": 255,
+      "total": 256
+    },
+    "DSP": {
+      "used": 17,
+      "total": 160
+    },
+    "GBUF": {
+      "used": 11,
+      "total": 32
+    }
+  },
+  "test_counts": {
+    "executed_v10": 2,
+    "inherited_exact_dependencies": 37
+  },
+  "cleanup": {
+    "unused_RTL_files_removed": 7,
+    "maintenance_scripts_retained": 6,
+    "old_versions_experiments_and_backups_included": false,
+    "generated_caches_archived_outside_project": true
+  },
+  "compiler_inputs_match": true,
+  "package": "release/edge_camera_v10_project.zip"
+}

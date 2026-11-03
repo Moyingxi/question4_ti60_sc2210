@@ -1,0 +1,12 @@
+Running: efx_run_map.py edge_camera_v10 --family Titanium --device Ti60F225 --project_xml E:\0Efinity_prj\question4_ti60_sc2210_version10\edge_camera_v10.xml --output_dir outflow --work_dir work_syn --opt root=edge_camera_v10_top --opt veri_options=verilog_mode=verilog_2k,vhdl_mode=vhdl_2008 work-dir=work_syn write_efx_verilog=on I=ip/DdrCtrl
+   map :	PASS 
+Running: efx_run_pt_unified.py edge_camera_v10 Titanium Ti60F225 --output_dir outflow --timing_model I3 --project_xml edge_camera_v10.xml
+   interface :	PASS 
+Running: efx_run_pnr.py edge_camera_v10 --prj E:\0Efinity_prj\question4_ti60_sc2210_version10\edge_camera_v10.xml --family Titanium --device Ti60F225 --timing_model I3 --output_dir outflow --work_dir work_pnr --opt sdc_file=edge_camera_v10.sdc,outflow/edge_camera_v10.pt.sdc,cdc.sdc
+   pnr :	PASS 
+Running: efx_run_pgm.py edge_camera_v10 --family Titanium --device Ti60F225 --output_dir outflow --work_dir work_pnr --opt mode=active width=4 enable_roms=on spi_low_power_mode=off io_weak_pullup=on oscillator_clock_divider=DIV2 enable_crc_check=on bitstream_compression=on active_capture_clk_edge=negedge release_tri_then_reset=on enable_external_master_clock=off jtag_usercode=0xFFFFFFFF four_byte_addressing=off
+   pgm :	PASS 
+Running: export_bitstream.py hex_to_bin outflow\edge_camera_v10.bit outflow\edge_camera_v10.bit.bin
+   export_bitstream :	PASS 
+Running: export_bitstream.py hex_to_bin outflow\edge_camera_v10.hex outflow\edge_camera_v10.hex.bin
+   export_bitstream :	PASS 

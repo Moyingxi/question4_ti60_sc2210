@@ -1,0 +1,445 @@
+{
+  "project": "edge_camera_v10",
+  "generated": "2026-11-03T20:55:39.470658",
+  "status": "PASS",
+  "checks": {
+    "current_build": true,
+    "top_only_version_rename": true,
+    "io_clock_constraints_identity": true,
+    "retained_rtl_ip_debug_fixture_identity": true,
+    "regressions": true,
+    "local_project": true,
+    "unreachable_files_removed": true,
+    "timing": true,
+    "csi_hold_margin": true,
+    "resources": true,
+    "shape_generator_identity": true
+  },
+  "hardware_programmed": false,
+  "hardware_validation": "NOT_REQUESTED_DO_NOT_INHERIT_V9_ACCEPTANCE",
+  "scope": "Packaging and unreferenced-file cleanup; active functionality preserved",
+  "bit_sha256": "36e1e5c3d2c3e49f56c66c0166cf3eb412e902dda73c8eac1edd0407339744d0",
+  "source_identity_changes": [],
+  "tests": [
+    {
+      "name": "tb_v8_sevenseg_status",
+      "status": "PASS",
+      "changes": [],
+      "evidence": "FROZEN_EXACT_DEPENDENCIES",
+      "original_record_sha256": "c530d358a85378083bdad2a4e83dd87d6665ddf6ea07f92e7fcb1c87a71decb0",
+      "started": "2026-11-02T02:36:49.991327",
+      "finished": "2026-11-02T02:36:57.209834",
+      "dependency_count": 5
+    },
+    {
+      "name": "tb_matrix_controls",
+      "status": "PASS",
+      "changes": [],
+      "evidence": "V10_XSIM_EXECUTION",
+      "original_record_sha256": "a794af504892ef4236eb14cb48417c1ab0cbb9e991762b35c90c1e0752f23d07",
+      "started": "2026-11-03T20:47:49.034535",
+      "finished": "2026-11-03T20:48:01.267492",
+      "dependency_count": 4
+    },
+    {
+      "name": "tb_async_fifo",
+      "status": "PASS",
+      "changes": [],
+      "evidence": "FROZEN_EXACT_DEPENDENCIES",
+      "original_record_sha256": "bafa815c8263af5769595534d8b1b170c2c18863a3614e57878e26c876ce80fd",
+      "started": "2026-10-24T14:35:52.945633",
+      "finished": "2026-10-24T14:35:58.504699",
+      "dependency_count": 2
+    },
+    {
+      "name": "tb_axi_burst_bridge",
+      "status": "PASS",
+      "changes": [],
+      "evidence": "FROZEN_EXACT_DEPENDENCIES",
+      "original_record_sha256": "b6a31804cc22a0009799ede88ef8a5921ecb1088a6de5d09569d3cd745f8c2cf",
+      "started": "2026-10-24T14:35:58.560834",
+      "finished": "2026-10-24T14:36:03.973776",
+      "dependency_count": 2
+    },
+    {
+      "name": "tb_camera_pack",
+      "status": "PASS",
+      "changes": [],
+      "evidence": "FROZEN_EXACT_DEPENDENCIES",
+      "original_record_sha256": "c56bdab576e169b660254cb9d3f8ec615002820dd7173bb05186b953cee98843",
+      "started": "2026-10-24T14:36:04.030601",
+      "finished": "2026-10-24T14:36:11.374231",
+      "dependency_count": 2
+    },
+    {
+      "name": "tb_v8_shape_ram",
+      "status": "PASS",
+      "changes": [],
+      "evidence": "FROZEN_EXACT_DEPENDENCIES",
+      "original_record_sha256": "ef46830c834cbf9818da649563f871d1c64a447994c582d933ba09efe6e3a03d",
+      "started": "2026-10-24T16:39:51.267057",
+      "finished": "2026-10-24T16:39:57.589858",
+      "dependency_count": 3
+    },
+    {
+      "name": "tb_v8_controls",
+      "status": "PASS",
+      "changes": [],
+      "evidence": "FROZEN_EXACT_DEPENDENCIES",
+      "original_record_sha256": "a083349206a27b9fdeb863b21d210c92de08ba1f1312dc7e6fc97511ee3a1ede",
+      "started": "2026-10-24T14:36:11.437474",
+      "finished": "2026-10-24T14:36:17.213152",
+      "dependency_count": 3
+    },
+    {
+      "name": "tb_v8_playback",
+      "status": "PASS",
+      "changes": [],
+      "evidence": "FROZEN_EXACT_DEPENDENCIES",
+      "original_record_sha256": "9a7abf35a8d28023df360dad19f7e4cec7a89147116b6161856836f2e1567980",
+      "started": "2026-10-24T14:36:17.270398",
+      "finished": "2026-10-24T14:36:22.682412",
+      "dependency_count": 2
+    },
+    {
+      "name": "tb_v8_processor",
+      "status": "PASS",
+      "changes": [],
+      "evidence": "FROZEN_EXACT_DEPENDENCIES",
+      "original_record_sha256": "f36a92b64c23e6cd22b33508c703b7840ea2bfaa202a803f115d59c2fefd8aad",
+      "started": "2026-11-02T01:32:39.955399",
+      "finished": "2026-11-02T01:32:53.200376",
+      "dependency_count": 30
+    },
+    {
+      "name": "tb_v8_frame_system",
+      "status": "PASS",
+      "changes": [],
+      "evidence": "FROZEN_EXACT_DEPENDENCIES",
+      "original_record_sha256": "1847f619c87b7871b2845a335d30be1126e0002389517eb23ca8b92479a33c71",
+      "started": "2026-11-02T23:09:47.583630",
+      "finished": "2026-11-02T23:10:16.467752",
+      "dependency_count": 27
+    },
+    {
+      "name": "tb_v8_display",
+      "status": "PASS",
+      "changes": [],
+      "evidence": "FROZEN_EXACT_DEPENDENCIES",
+      "original_record_sha256": "1af6c28cfe6fa72eb81270e2e7e96ba15b677840cacb29b2edc89ec3f51fadd9",
+      "started": "2026-11-03T15:17:22.810941",
+      "finished": "2026-11-03T15:22:05.064565",
+      "dependency_count": 9
+    },
+    {
+      "name": "tb_v8_color",
+      "status": "PASS",
+      "changes": [],
+      "evidence": "FROZEN_EXACT_DEPENDENCIES",
+      "original_record_sha256": "7f3dfc954499ec0ea0c19cf39e54970395635a01207f6a2d441a53886253f31c",
+      "started": "2026-11-02T01:32:51.152334",
+      "finished": "2026-11-02T01:33:01.716032",
+      "dependency_count": 15
+    },
+    {
+      "name": "tb_v8_display_ddr",
+      "status": "PASS",
+      "changes": [],
+      "evidence": "FROZEN_EXACT_DEPENDENCIES",
+      "original_record_sha256": "c76fdfaed422dedc6f5be7d387dee5975b071cd2cf7f0eee7c9fe86137427507",
+      "started": "2026-11-03T15:17:22.809436",
+      "finished": "2026-11-03T15:20:32.964929",
+      "dependency_count": 13
+    },
+    {
+      "name": "tb_v8_demo_color",
+      "status": "PASS",
+      "changes": [],
+      "evidence": "FROZEN_EXACT_DEPENDENCIES",
+      "original_record_sha256": "d9c8b4c23143b3b524a824d488348d395bbe7fb4d4494ef2518ddf774b8a34f0",
+      "started": "2026-10-24T14:39:17.930144",
+      "finished": "2026-10-24T14:39:24.570137",
+      "dependency_count": 6
+    },
+    {
+      "name": "tb_v8_burst_reverse",
+      "status": "PASS",
+      "changes": [],
+      "evidence": "FROZEN_EXACT_DEPENDENCIES",
+      "original_record_sha256": "d4e3867826546a959bb67ac9e1e596ed1ff19a2d012c548ac86d4f221043d69c",
+      "started": "2026-10-24T14:39:24.641418",
+      "finished": "2026-10-24T14:39:30.772257",
+      "dependency_count": 2
+    },
+    {
+      "name": "tb_sc2210_lane_order",
+      "status": "PASS",
+      "changes": [],
+      "evidence": "FROZEN_EXACT_DEPENDENCIES",
+      "original_record_sha256": "498b55a991a8014a00fe2beddb23dfba3233316ded584db4cffac0fcc71630f7",
+      "started": "2026-10-24T14:39:30.848442",
+      "finished": "2026-10-24T14:39:38.230366",
+      "dependency_count": 7
+    },
+    {
+      "name": "tb_v8_diagnostics",
+      "status": "PASS",
+      "changes": [],
+      "evidence": "FROZEN_EXACT_DEPENDENCIES",
+      "original_record_sha256": "27002bf07ae25f60459a94ad20de38950a79d905356a6c1d798b8c68bcb3445e",
+      "started": "2026-10-24T14:39:38.309672",
+      "finished": "2026-10-24T14:39:44.580348",
+      "dependency_count": 3
+    },
+    {
+      "name": "tb_v8_white_balance",
+      "status": "PASS",
+      "changes": [],
+      "evidence": "FROZEN_EXACT_DEPENDENCIES",
+      "original_record_sha256": "fc842511818e3f51dd94d6403b7c61af3ad78bf1225a6ede45423dbcf71b9418",
+      "started": "2026-10-24T14:39:44.658078",
+      "finished": "2026-10-24T14:39:50.547407",
+      "dependency_count": 2
+    },
+    {
+      "name": "tb_v8_components",
+      "status": "PASS",
+      "changes": [],
+      "evidence": "FROZEN_EXACT_DEPENDENCIES",
+      "original_record_sha256": "e98873f433d41707ead98d1c8b7137cb151396000ab0c926abaa991a40710c54",
+      "started": "2026-11-02T01:32:53.357918",
+      "finished": "2026-11-02T01:33:00.963925",
+      "dependency_count": 2
+    },
+    {
+      "name": "tb_v8_sobel_quality",
+      "status": "PASS",
+      "changes": [],
+      "evidence": "FROZEN_EXACT_DEPENDENCIES",
+      "original_record_sha256": "5ce9689321ebbc4f75f7fc69328c570ca9fdfc80705266f64019eac35dc4063c",
+      "started": "2026-11-02T01:32:54.405322",
+      "finished": "2026-11-02T01:33:06.129196",
+      "dependency_count": 27
+    },
+    {
+      "name": "tb_v8_shapes",
+      "status": "PASS",
+      "changes": [],
+      "evidence": "FROZEN_EXACT_DEPENDENCIES",
+      "original_record_sha256": "56b2f38f628fdc37676e26ea71c14f28e0022d6cb0b5631ea2d7b50eeb4f2548",
+      "started": "2026-11-02T01:18:33.915324",
+      "finished": "2026-11-02T01:29:33.053996",
+      "dependency_count": 7
+    },
+    {
+      "name": "tb_v8_shapes_display",
+      "status": "PASS",
+      "changes": [],
+      "evidence": "FROZEN_EXACT_DEPENDENCIES",
+      "original_record_sha256": "20804912cb85accb5240eb92d4108a774c99482651c4bbb78bfb7a223baaaa9d",
+      "started": "2026-11-03T15:20:33.057055",
+      "finished": "2026-11-03T15:22:50.356789",
+      "dependency_count": 9
+    },
+    {
+      "name": "tb_v8_shape_edges",
+      "status": "PASS",
+      "changes": [],
+      "evidence": "FROZEN_EXACT_DEPENDENCIES",
+      "original_record_sha256": "5f4af43014550a09d57120d49b1cdef49e38f795ab85b4b1b115adced0d392f0",
+      "started": "2026-10-24T15:44:35.410854",
+      "finished": "2026-10-24T15:44:41.085579",
+      "dependency_count": 2
+    },
+    {
+      "name": "tb_v8_shape_tracking",
+      "status": "PASS",
+      "changes": [],
+      "evidence": "FROZEN_EXACT_DEPENDENCIES",
+      "original_record_sha256": "917e8ab05e4c9367dad93d2765819ca0a5732da7c6b2f64679cde934ab460f1e",
+      "started": "2026-10-24T15:59:31.635900",
+      "finished": "2026-10-24T15:59:37.848076",
+      "dependency_count": 4
+    },
+    {
+      "name": "tb_mipi_receiver",
+      "status": "PASS",
+      "changes": [],
+      "evidence": "FROZEN_EXACT_DEPENDENCIES",
+      "original_record_sha256": "1a70bc1fbb7cc6812c3a8268dc83530ee33ad942d1d95fbed3c6fc33b69f217b",
+      "started": "2026-10-24T14:41:24.080973",
+      "finished": "2026-10-24T14:42:35.371264",
+      "dependency_count": 3
+    },
+    {
+      "name": "tb_mipi_receiver_delayed_input",
+      "status": "PASS",
+      "changes": [],
+      "evidence": "FROZEN_EXACT_DEPENDENCIES",
+      "original_record_sha256": "04b50752d99f0b160b6013414022d37c1841438b590c9946603b06333fa752f4",
+      "started": "2026-10-24T14:42:35.429124",
+      "finished": "2026-10-24T14:42:45.084442",
+      "dependency_count": 3
+    },
+    {
+      "name": "tb_v8_components_overflow",
+      "status": "PASS",
+      "changes": [],
+      "evidence": "FROZEN_EXACT_DEPENDENCIES",
+      "original_record_sha256": "cf990dd8000063904433ef2e33cb485613fe333da75fce06170f6ef1f7b51804",
+      "started": "2026-11-02T01:32:04.780333",
+      "finished": "2026-11-02T01:32:11.285859",
+      "dependency_count": 2
+    },
+    {
+      "name": "tb_v8_processor_components",
+      "status": "PASS",
+      "changes": [],
+      "evidence": "FROZEN_EXACT_DEPENDENCIES",
+      "original_record_sha256": "c95948df395ed98ccc3e9be3701ff1c61229cea1bc06601b63f68c98c07d2766",
+      "started": "2026-11-02T01:32:11.369496",
+      "finished": "2026-11-02T01:32:19.820460",
+      "dependency_count": 27
+    },
+    {
+      "name": "tb_v8_processor_fallback",
+      "status": "PASS",
+      "changes": [],
+      "evidence": "FROZEN_EXACT_DEPENDENCIES",
+      "original_record_sha256": "1458c07fdd42041f48b6fc7b80c79fa3b7f57802a4451b68a56379a66c5f95b1",
+      "started": "2026-11-02T01:32:19.900385",
+      "finished": "2026-11-02T01:32:29.051709",
+      "dependency_count": 27
+    },
+    {
+      "name": "tb_v8_frame_system_components",
+      "status": "PASS",
+      "changes": [],
+      "evidence": "FROZEN_EXACT_DEPENDENCIES",
+      "original_record_sha256": "21747e986fef23b85fe091649b2b874a0450368fbdece11459689c7d45892bdc",
+      "started": "2026-11-02T23:21:01.694813",
+      "finished": "2026-11-02T23:21:13.499172",
+      "dependency_count": 27
+    },
+    {
+      "name": "tb_v8_frame_system_fallback",
+      "status": "PASS",
+      "changes": [],
+      "evidence": "FROZEN_EXACT_DEPENDENCIES",
+      "original_record_sha256": "10674a801ba1d885a4831eb2e7caa6ca332aceb984f055967482170fd1a35ddb",
+      "started": "2026-11-02T23:21:13.573151",
+      "finished": "2026-11-02T23:21:24.791857",
+      "dependency_count": 27
+    },
+    {
+      "name": "tb_v8_processor_1080p",
+      "status": "PASS",
+      "changes": [],
+      "evidence": "FROZEN_EXACT_DEPENDENCIES",
+      "original_record_sha256": "9530be6a0a54c3a934d07505e6646dab3e92a7f5aff264030e3493e8da76c9ae",
+      "started": "2026-11-02T01:33:01.790614",
+      "finished": "2026-11-02T01:42:27.535263",
+      "dependency_count": 27
+    },
+    {
+      "name": "tb_v8_processor_components_1080p",
+      "status": "PASS",
+      "changes": [],
+      "evidence": "FROZEN_EXACT_DEPENDENCIES",
+      "original_record_sha256": "eddc7bae7f9c14817438f0b25043a2107ae91bb1f0758b69cd01d10e90e2ba24",
+      "started": "2026-11-02T01:33:06.216507",
+      "finished": "2026-11-02T01:43:31.276319",
+      "dependency_count": 27
+    },
+    {
+      "name": "tb_v8_frame_system_1080p",
+      "status": "PASS",
+      "changes": [],
+      "evidence": "FROZEN_EXACT_DEPENDENCIES",
+      "original_record_sha256": "a93c8ebe5e9a6d88bb1a0bc422665cf0c712aacdfb55f07a2662320fce7b5764",
+      "started": "2026-11-02T23:21:24.863075",
+      "finished": "2026-11-02T23:24:20.942500",
+      "dependency_count": 27
+    },
+    {
+      "name": "tb_v8_frame_system_components_1080p",
+      "status": "PASS",
+      "changes": [],
+      "evidence": "FROZEN_EXACT_DEPENDENCIES",
+      "original_record_sha256": "a6e809c0d7022c8dc7aed85c7f9f9da2e74c80f842f35d8c0847ddcbe643b1c4",
+      "started": "2026-11-02T23:21:59.286307",
+      "finished": "2026-11-02T23:24:27.943937",
+      "dependency_count": 27
+    },
+    {
+      "name": "tb_v8_components_snake_1080p",
+      "status": "PASS",
+      "changes": [],
+      "evidence": "FROZEN_EXACT_DEPENDENCIES",
+      "original_record_sha256": "0f008d86bc2a3ff90731c0ac16c0c80b67f08faa04b6ae84232a32caf06b6d7c",
+      "started": "2026-11-02T01:38:51.287091",
+      "finished": "2026-11-02T01:39:09.674318",
+      "dependency_count": 2
+    },
+    {
+      "name": "tb_v9_camera_fps",
+      "status": "PASS",
+      "changes": [],
+      "evidence": "V10_XSIM_EXECUTION",
+      "original_record_sha256": "544272b2e584454a20d22ed4c65a2b083d9df1f04ad53732a5940299cc3a7aeb",
+      "started": "2026-11-03T20:47:49.034535",
+      "finished": "2026-11-03T20:48:01.267492",
+      "dependency_count": 2
+    },
+    {
+      "name": "tb_v9_camera_fps_display",
+      "status": "PASS",
+      "changes": [],
+      "evidence": "FROZEN_EXACT_DEPENDENCIES",
+      "original_record_sha256": "f9c3fe259a1b630f77f0364e8fee21eb674ef45ca76355535845bb384ecccb71",
+      "started": "2026-11-03T15:22:05.256795",
+      "finished": "2026-11-03T15:24:43.217281",
+      "dependency_count": 15
+    },
+    {
+      "name": "tb_v9_fps_overlay",
+      "status": "PASS",
+      "changes": [],
+      "evidence": "FROZEN_EXACT_DEPENDENCIES",
+      "original_record_sha256": "301582159183fcc6aa298dd7b68ae36f8fcaaf46469bd5acf4157a32d01b5d51",
+      "started": "2026-11-02T23:11:44.711090",
+      "finished": "2026-11-02T23:12:04.981112",
+      "dependency_count": 4
+    }
+  ],
+  "test_counts": {
+    "executed_v10": 2,
+    "inherited_exact_dependencies": 37
+  },
+  "timing": {
+    "setup_min_ns": 0.04,
+    "hold_min_ns": 0.027,
+    "pixel_setup_ns": 0.04
+  },
+  "csi_hold_uncertainties_ns": [
+    0.57
+  ],
+  "resources": {
+    "XLR": {
+      "used": 60712,
+      "total": 60800
+    },
+    "RAM": {
+      "used": 255,
+      "total": 256
+    },
+    "DSP": {
+      "used": 17,
+      "total": 160
+    },
+    "GBUF": {
+      "used": 11,
+      "total": 32
+    }
+  }
+}

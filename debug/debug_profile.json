@@ -1,0 +1,396 @@
+{
+  "debug_cores": [
+    {
+      "name": "status",
+      "type": "vio",
+      "uuid": "028d816e6781492b9f60366cbce18cbb",
+      "probes": [
+        {
+          "name": "clocks",
+          "width": 4,
+          "init": null
+        },
+        {
+          "name": "ddr_cal",
+          "width": 2,
+          "init": null
+        },
+        {
+          "name": "i2c_done",
+          "width": 1,
+          "init": null
+        },
+        {
+          "name": "i2c_nacks",
+          "width": 32,
+          "init": null
+        },
+        {
+          "name": "i2c_index",
+          "width": 9,
+          "init": null
+        },
+        {
+          "name": "captured",
+          "width": 32,
+          "init": null
+        },
+        {
+          "name": "processed",
+          "width": 32,
+          "init": null
+        },
+        {
+          "name": "discarded",
+          "width": 32,
+          "init": null
+        },
+        {
+          "name": "ddr_errors",
+          "width": 32,
+          "init": null
+        },
+        {
+          "name": "state",
+          "width": 16,
+          "init": null
+        },
+        {
+          "name": "cap_level",
+          "width": 12,
+          "init": null
+        },
+        {
+          "name": "raw_level",
+          "width": 11,
+          "init": null
+        },
+        {
+          "name": "result_level",
+          "width": 11,
+          "init": null
+        },
+        {
+          "name": "display_level",
+          "width": 10,
+          "init": null
+        },
+        {
+          "name": "threshold",
+          "width": 11,
+          "init": null
+        },
+        {
+          "name": "median",
+          "width": 1,
+          "init": null
+        },
+        {
+          "name": "playback_mode",
+          "width": 2,
+          "init": null
+        },
+        {
+          "name": "history_count",
+          "width": 9,
+          "init": null
+        },
+        {
+          "name": "replay_remaining",
+          "width": 9,
+          "init": null
+        },
+        {
+          "name": "history_busy",
+          "width": 1,
+          "init": null
+        },
+        {
+          "name": "replay_waiting",
+          "width": 1,
+          "init": null
+        },
+        {
+          "name": "matrix_keys",
+          "width": 16,
+          "init": null
+        },
+        {
+          "name": "matrix_rows",
+          "width": 4,
+          "init": null
+        },
+        {
+          "name": "matrix_cols",
+          "width": 4,
+          "init": null
+        },
+        {
+          "name": "matrix_oe",
+          "width": 4,
+          "init": null
+        },
+        {
+          "name": "matrix_multi",
+          "width": 1,
+          "init": null
+        },
+        {
+          "name": "matrix_armed",
+          "width": 1,
+          "init": null
+        },
+        {
+          "name": "canny",
+          "width": 1,
+          "init": null
+        },
+        {
+          "name": "canny_passes",
+          "width": 32,
+          "init": null
+        },
+        {
+          "name": "color",
+          "width": 1,
+          "init": null
+        },
+        {
+          "name": "compare",
+          "width": 1,
+          "init": null
+        },
+        {
+          "name": "selected_b",
+          "width": 1,
+          "init": null
+        },
+        {
+          "name": "index_a",
+          "width": 9,
+          "init": null
+        },
+        {
+          "name": "index_b",
+          "width": 9,
+          "init": null
+        },
+        {
+          "name": "compare_edge",
+          "width": 1,
+          "init": null
+        },
+        {
+          "name": "display_sample",
+          "width": 32,
+          "init": null
+        },
+        {
+          "name": "compare_view",
+          "width": 2,
+          "init": null
+        }
+      ]
+    },
+    {
+      "name": "camera",
+      "type": "vio",
+      "uuid": "2943d707fa514ac2ab536a06d7625741",
+      "probes": [
+        {
+          "name": "frames",
+          "width": 32,
+          "init": null
+        },
+        {
+          "name": "overflow",
+          "width": 32,
+          "init": null
+        },
+        {
+          "name": "format_errors",
+          "width": 32,
+          "init": null
+        },
+        {
+          "name": "vs",
+          "width": 1,
+          "init": null
+        },
+        {
+          "name": "de",
+          "width": 1,
+          "init": null
+        },
+        {
+          "name": "line_words",
+          "width": 12,
+          "init": null
+        },
+        {
+          "name": "frame_words",
+          "width": 22,
+          "init": null
+        }
+      ]
+    },
+    {
+      "name": "display",
+      "type": "vio",
+      "uuid": "9e1f163130e34a7d8e6ff1fff81dd4a8",
+      "probes": [
+        {
+          "name": "frames",
+          "width": 32,
+          "init": null
+        },
+        {
+          "name": "underruns",
+          "width": 32,
+          "init": null
+        }
+      ]
+    },
+    {
+      "name": "test",
+      "type": "vio",
+      "uuid": "f22ad277068f40bca09375bae874e51d",
+      "probes": [
+        {
+          "name": "keys",
+          "width": 16,
+          "init": "0x0000"
+        }
+      ]
+    },
+    {
+      "name": "sample",
+      "type": "vio",
+      "uuid": "06ee8755c5924870b2f4ca3a7e30d84c",
+      "probes": [
+        {
+          "name": "address",
+          "width": 18,
+          "init": "0x00000"
+        },
+        {
+          "name": "a",
+          "width": 128,
+          "init": null
+        },
+        {
+          "name": "b",
+          "width": 128,
+          "init": null
+        },
+        {
+          "name": "header_a",
+          "width": 24,
+          "init": null
+        },
+        {
+          "name": "header_b",
+          "width": 24,
+          "init": null
+        },
+        {
+          "name": "seq_a",
+          "width": 32,
+          "init": null
+        },
+        {
+          "name": "seq_b",
+          "width": 32,
+          "init": null
+        }
+      ]
+    },
+    {
+      "name": "diagnostic",
+      "type": "vio",
+      "uuid": "ccacebae319a46b287268b057c40c5b7",
+      "probes": [
+        {
+          "name": "request",
+          "width": 1,
+          "init": "0x0"
+        },
+        {
+          "name": "mode",
+          "width": 2,
+          "init": "0x0"
+        },
+        {
+          "name": "ack",
+          "width": 1,
+          "init": null
+        },
+        {
+          "name": "snapshot",
+          "width": 320,
+          "init": null
+        },
+        {
+          "name": "active_mode",
+          "width": 2,
+          "init": null
+        }
+      ]
+    },
+    {
+      "name": "white_balance",
+      "type": "vio",
+      "uuid": "fde4d98eea244ac598782bcf0a2a0e13",
+      "probes": [
+        {
+          "name": "config_word",
+          "width": 37,
+          "init": "0x119c100198"
+        },
+        {
+          "name": "applied",
+          "width": 37,
+          "init": null
+        },
+        {
+          "name": "ack",
+          "width": 1,
+          "init": null
+        },
+        {
+          "name": "snapshot",
+          "width": 320,
+          "init": null
+        }
+      ]
+    },
+    {
+      "name": "performance",
+      "type": "vio",
+      "uuid": "6c415b2ff9f0473183e1276920776940",
+      "probes": [
+        {
+          "name": "counters",
+          "width": 224,
+          "init": null
+        }
+      ]
+    },
+    {
+      "name": "shapes",
+      "type": "vio",
+      "uuid": "9e43760994fb47caa7db380f7b9cdf19",
+      "probes": [
+        {
+          "name": "snapshot",
+          "width": 320,
+          "init": null
+        }
+      ]
+    }
+  ],
+  "session": {
+    "debug_widget": [],
+    "wizard": {}
+  }
+}

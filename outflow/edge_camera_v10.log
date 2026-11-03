@@ -1,0 +1,1364 @@
+Running: efx_run_map.py edge_camera_v10 --family Titanium --device Ti60F225 --project_xml E:\0Efinity_prj\question4_ti60_sc2210_version10\edge_camera_v10.xml --output_dir outflow --work_dir work_syn --opt root=edge_camera_v10_top --opt veri_options=verilog_mode=verilog_2k,vhdl_mode=vhdl_2008 work-dir=work_syn write_efx_verilog=on I=ip/DdrCtrl
+running synthesis
+Creating E:\0Efinity_prj\question4_ti60_sc2210_version10\work_syn
+Running: D:\Efinity\bin\efx_map.exe --project edge_camera_v10 --family Titanium --device Ti60F225 --output-dir outflow --project-xml E:\0Efinity_prj\question4_ti60_sc2210_version10\edge_camera_v10.xml --binary-db outflow\edge_camera_v10.vdb --peri-syn-instantiation=0 --peri-syn-inference=0 --peri-syn-modify-vdb-module-name=0 --root=edge_camera_v10_top --veri_options=verilog_mode=verilog_2k,vhdl_mode=vhdl_2008 --work-dir=work_syn --write-efx-verilog=outflow\edge_camera_v10.map.v --I=ip/DdrCtrl
+INFO     : Elitestek FPGA Synthesis.
+INFO     : Version: 2026.1.132
+INFO     : Compiled: May 29 2026.
+INFO     : 
+INFO     : Copyright (C) 2013 - 2026 Efinix, Inc. All rights reserved.
+
+INFO     : Reading project database "E:\0Efinity_prj\question4_ti60_sc2210_version10\edge_camera_v10.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 16 [FlowMsg::MaxThreads]
+INFO     : Reading project database "E:\0Efinity_prj\question4_ti60_sc2210_version10\edge_camera_v10.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : ***** Beginning Analysis ... *****
+INFO     : default VHDL library search path is now "D:/Efinity/sim_models/vhdl/packages/vhdl_2008" [VHDL-1504]
+INFO     : Restoring all Verilog modules from file 'D:\Efinity/sim_models/maplib/perilib_efxlib_parsetree.vdb' [VERI-2484]
+INFO     : Restoring all Verilog modules from file 'D:\Efinity/sim_models/maplib/maplib_efxlib_parsetree.vdb' [VERI-2484]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\control\v8_sevenseg_status.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\control\v8_controls.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\control\v8_playback_control.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\memory\v8_frame_store.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\memory\v8_burst_reverse.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_white_balance.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_rgb_diagnostics.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_diagnostic_display.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_frontend.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_sobel_support.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_hysteresis.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\sc2210_raw8_unpack.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_scale.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_components.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_label_scale.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\common\v8_gearbox.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\common\v8_csi_lp_align.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_processor_io.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_hdmi_display.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v9_presented_fps.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v9_camera_fps.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v9_fps_overlay.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_detector.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_edges.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_ram.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_tracker.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_overlay.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_font.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\board\camera_i2c.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\board\edge_camera_v10_top.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\common\async_fifo.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\common\reset_sync.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\control\matrix_keypad.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\control\matrix_controls.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\control\key_controls.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\memory\axi_burst_bridge.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\bayer_rgb.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\camera_pack.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\median9_pipe.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\rgb_to_y8.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\window3x3.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\I2C_SC2210_19201080_4Lanes_Config.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\tmds_channel.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv' [VERI-1482]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(267): analyzing included file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl/ddr3_controller.vh' [VERI-1328]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(267): back to file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv' [VERI-2320]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(590): undeclared symbol '**', assumed default net type '**' [VERI-2561]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(595): analyzing included file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl/ddr3_controller.vh' [VERI-1328]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(595): back to file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv' [VERI-2320]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(1585): analyzing included file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl/ddr3_controller.vh' [VERI-1328]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(1585): back to file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv' [VERI-2320]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(1839): analyzing included file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl/ddr3_controller.vh' [VERI-1328]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(1839): back to file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv' [VERI-2320]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(2146): analyzing included file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl/ddr3_controller.vh' [VERI-1328]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(2146): back to file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv' [VERI-2320]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(2615): analyzing included file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl/ddr3_controller.vh' [VERI-1328]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(2615): back to file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv' [VERI-2320]
+INFO     : Analyzing Verilog file 'E:\0Efinity_prj\question4_ti60_sc2210_version10\debug\edge_debug.v' [VERI-1482]
+INFO     : Analysis took 0.1760201 seconds [FlowMsg::StageDuration]
+INFO     :     Analysis took 0.125 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Analysis virtual memory usage: begin = 59.664 MB, end = 62.8 MB, delta = 3.136 MB [FlowMsg::VMUsage]
+INFO     :     Analysis peak virtual memory usage = 62.8 MB [FlowMsg::VMUsage::Peak]
+INFO     : Analysis resident set memory usage: begin = 64.82 MB, end = 71.744 MB, delta = 6.924 MB [FlowMsg::RSSUsage]
+INFO     :     Analysis peak resident set memory usage = 71.744 MB [FlowMsg::RSSUsage::Peak]
+INFO     : ***** Ending Analysis ... *****
+INFO     : ***** Beginning Elaboration ... *****
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\board\edge_camera_v10_top.v(8): compiling module 'edge_camera_v10_top' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\common\reset_sync.v(6): compiling module 'reset_sync' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\common\v8_csi_lp_align.v(6): compiling module 'v8_csi_lp_align' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v(3): compiling module 'MIPIRx4LaneFre' [VERI-1018]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v(51): net '_0046_[5]' does not have a driver [VDB-1002]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v(59): net '_0054_[5]' does not have a driver [VDB-1002]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v(61): net '_0056_[5]' does not have a driver [VDB-1002]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v(63): net '_0058_[5]' does not have a driver [VDB-1002]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v(65): net '_0060_[5]' does not have a driver [VDB-1002]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v(70): net '_0065_[3]' does not have a driver [VDB-1002]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v(134): net '_0129_[5]' does not have a driver [VDB-1002]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v(142): net '_0137_[5]' does not have a driver [VDB-1002]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v(144): net '_0139_[5]' does not have a driver [VDB-1002]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v(146): net '_0141_[5]' does not have a driver [VDB-1002]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v(148): net '_0143_[5]' does not have a driver [VDB-1002]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v(336): net '_0331_[79]' does not have a driver [VDB-1002]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v(337): net '_0332_[63]' does not have a driver [VDB-1002]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v(338): net '_0333_[47]' does not have a driver [VDB-1002]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v(339): net '_0334_[47]' does not have a driver [VDB-1002]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v(409): net '_0404_[7]' does not have a driver [VDB-1002]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v(477): net '_0472_[3]' does not have a driver [VDB-1002]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v(1405): net '_1400_[15]' does not have a driver [VDB-1002]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v(1416): net '_1411_[2]' does not have a driver [VDB-1002]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\board\camera_i2c.v(7): compiling module 'camera_i2c' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\I2C_SC2210_19201080_4Lanes_Config.v(18): compiling module 'I2C_SC2210_19201080_4Lanes_Config' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\control\matrix_controls.v(5): compiling module 'matrix_controls' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\control\matrix_keypad.v(10): compiling module 'matrix_keypad' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\control\v8_controls.v(4): compiling module 'v8_controls' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\control\key_controls.v(7): compiling module 'key_debounce' [VERI-1018]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\control\v8_controls.v(22): expression size 32 truncated to fit in target size 11 [VERI-1209]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\control\v8_controls.v(23): expression size 32 truncated to fit in target size 11 [VERI-1209]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\sc2210_raw8_unpack.v(6): compiling module 'sc2210_raw8_unpack' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\camera_pack.v(8): compiling module 'camera_pack' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\common\async_fifo.v(7): compiling module 'async_fifo(WIDTH=146,ADDR=11)' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\common\async_fifo.v(25): extracting RAM for identifier 'mem' [VERI-2571]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\common\async_fifo.v(7): compiling module 'async_fifo(ADDR=10)' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\common\async_fifo.v(25): extracting RAM for identifier 'mem' [VERI-2571]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\common\async_fifo.v(7): compiling module 'async_fifo(WIDTH=26,ADDR=2)' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\common\async_fifo.v(25): extracting RAM for identifier 'mem' [VERI-2571]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_processor_io.v(3): compiling module 'v8_processor_io' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_frontend.v(5): compiling module 'v8_frontend' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\window3x3.v(8): compiling module 'window3x3(WIDTH=1930,HEIGHT=1090)' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\window3x3.v(23): extracting RAM for identifier 'lines' [VERI-2571]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\window3x3.v(77): expression size 32 truncated to fit in target size 12 [VERI-1209]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\window3x3.v(78): expression size 32 truncated to fit in target size 12 [VERI-1209]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\bayer_rgb.v(7): compiling module 'bayer_rgb' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_rgb_diagnostics.v(6): compiling module 'v8_rgb_diagnostics' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\rgb_to_y8.v(7): compiling module 'rgb_to_y8' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_white_balance.v(5): compiling module 'v8_white_balance' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\window3x3.v(8): compiling module 'window3x3(WIDTH=1928,HEIGHT=1088,BITS=24)' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\window3x3.v(23): extracting RAM for identifier 'lines' [VERI-2571]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\window3x3.v(77): expression size 32 truncated to fit in target size 12 [VERI-1209]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\window3x3.v(78): expression size 32 truncated to fit in target size 12 [VERI-1209]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\median9_pipe.v(7): compiling module 'median9_pipe' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\window3x3.v(8): compiling module 'window3x3(WIDTH=1926,HEIGHT=1086,BITS=32)' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\window3x3.v(23): extracting RAM for identifier 'lines' [VERI-2571]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\window3x3.v(77): expression size 32 truncated to fit in target size 12 [VERI-1209]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\window3x3.v(78): expression size 32 truncated to fit in target size 12 [VERI-1209]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\window3x3.v(8): compiling module 'window3x3(WIDTH=1924,HEIGHT=1084,BITS=32)' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\window3x3.v(23): extracting RAM for identifier 'lines' [VERI-2571]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\window3x3.v(77): expression size 32 truncated to fit in target size 12 [VERI-1209]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\window3x3.v(78): expression size 32 truncated to fit in target size 12 [VERI-1209]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_frontend.v(136): expression size 11 truncated to fit in target size 10 [VERI-1209]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\window3x3.v(8): compiling module 'window3x3(WIDTH=1922,HEIGHT=1082,BITS=37)' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\window3x3.v(23): extracting RAM for identifier 'lines' [VERI-2571]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\window3x3.v(77): expression size 32 truncated to fit in target size 12 [VERI-1209]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\window3x3.v(78): expression size 32 truncated to fit in target size 12 [VERI-1209]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_sobel_support.v(6): compiling module 'v8_sobel_support' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_components.v(5): compiling module 'v8_components(LABEL_LIMIT=8192)' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_components.v(22): extracting RAM for identifier 'line_n' [VERI-2571]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_components.v(22): extracting RAM for identifier 'line_ne' [VERI-2571]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_components.v(23): extracting RAM for identifier 'parent' [VERI-2571]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_components.v(24): extracting RAM for identifier 'seed' [VERI-2571]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_components.v(24): extracting RAM for identifier 'root_seed' [VERI-2571]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_components.v(25): extracting RAM for identifier 'mark0' [VERI-2571]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_components.v(25): extracting RAM for identifier 'mark1' [VERI-2571]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_components.v(25): extracting RAM for identifier 'mark2' [VERI-2571]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_components.v(25): extracting RAM for identifier 'mark3' [VERI-2571]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_label_scale.v(4): compiling module 'v8_label_scale' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_label_scale.v(9): extracting RAM for identifier 'line' [VERI-2571]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_label_scale.v(23): expression size 13 truncated to fit in target size 12 [VERI-1209]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\common\v8_gearbox.v(4): compiling module 'v8_gearbox' [VERI-1018]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\common\v8_gearbox.v(18): expression size 32 truncated to fit in target size 9 [VERI-1209]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\common\v8_gearbox.v(21): expression size 10 truncated to fit in target size 9 [VERI-1209]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\common\v8_gearbox.v(4): compiling module 'v8_gearbox(IW=128,OW=96)' [VERI-1018]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\common\v8_gearbox.v(18): expression size 32 truncated to fit in target size 9 [VERI-1209]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\common\v8_gearbox.v(21): expression size 10 truncated to fit in target size 9 [VERI-1209]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_hysteresis.v(6): compiling module 'v8_hysteresis' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_hysteresis.v(26): extracting RAM for identifier 'strong_n' [VERI-2571]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_hysteresis.v(27): extracting RAM for identifier 'strong_ne' [VERI-2571]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\window3x3.v(8): compiling module 'window3x3(WIDTH=1922,HEIGHT=1082,BITS=32)' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\window3x3.v(23): extracting RAM for identifier 'lines' [VERI-2571]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\window3x3.v(77): expression size 32 truncated to fit in target size 12 [VERI-1209]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\window3x3.v(78): expression size 32 truncated to fit in target size 12 [VERI-1209]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_scale.v(4): compiling module 'v8_scale' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_scale.v(9): extracting RAM for identifier 'line' [VERI-2571]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_scale.v(24): expression size 13 truncated to fit in target size 12 [VERI-1209]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\common\async_fifo.v(7): compiling module 'async_fifo(WIDTH=10,ADDR=4)' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\common\async_fifo.v(25): extracting RAM for identifier 'mem' [VERI-2571]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\common\async_fifo.v(7): compiling module 'async_fifo(WIDTH=152,ADDR=9)' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\common\async_fifo.v(25): extracting RAM for identifier 'mem' [VERI-2571]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v9_camera_fps.v(4): compiling module 'v9_camera_fps' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_hdmi_display.v(9): compiling module 'v8_hdmi_display(FPS_ENABLE=1,CAMERA_FPS_ENABLE=1)' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_hdmi_display.v(34): extracting RAM for identifier 'bank_row' [VERI-2571]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_hdmi_display.v(54): extracting RAM for identifier 'mem' [VERI-2571]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_hdmi_display.v(54): extracting RAM for identifier 'mem' [VERI-2571]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_hdmi_display.v(54): extracting RAM for identifier 'mem' [VERI-2571]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_hdmi_display.v(54): extracting RAM for identifier 'mem' [VERI-2571]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_hdmi_display.v(40): expression size 32 truncated to fit in target size 10 [VERI-1209]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_hdmi_display.v(41): expression size 32 truncated to fit in target size 11 [VERI-1209]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_hdmi_display.v(91): expression size 32 truncated to fit in target size 10 [VERI-1209]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_edges.v(6): compiling module 'v8_shape_edges' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_edges.v(11): extracting RAM for identifier 'line' [VERI-2571]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_edges.v(12): extracting RAM for identifier 'pool_line' [VERI-2571]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_tracker.v(4): compiling module 'v8_shape_tracker' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_tracker.v(11): extracting RAM for identifier 'misses' [VERI-2571]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_tracker.v(12): extracting RAM for identifier 'pending_kind' [VERI-2571]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_tracker.v(12): extracting RAM for identifier 'pending_count' [VERI-2571]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_tracker.v(13): extracting RAM for identifier 'pending_position' [VERI-2571]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_tracker.v(13): extracting RAM for identifier 'position_count' [VERI-2571]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_detector.v(5): compiling module 'v8_shape_detector' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_detector.v(25): extracting RAM for identifier 'parent' [VERI-2571]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_detector.v(31): extracting RAM for identifier 'rows' [VERI-2571]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_ram.v(5): compiling module 'v8_shape_ram' [VERI-1018]
+INFO     : ../../vdb/src/efinix_maplib.v(653): compiling module 'EFX_RAM10(READ_WIDTH=10,WRITE_WIDTH=10)' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_ram.v(5): compiling module 'v8_shape_ram(WIDTH=20,ROW_BITS=9,BANK_BITS=3,BANKS=8)' [VERI-1018]
+INFO     : ../../vdb/src/efinix_maplib.v(653): compiling module 'EFX_RAM10(READ_WIDTH=20,WRITE_WIDTH=20)' [VERI-1018]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_detector.v(156): expression size 17 truncated to fit in target size 4 [VERI-1209]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_detector.v(222): expression size 32 truncated to fit in target size 17 [VERI-1209]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_detector.v(85): expression size 32 truncated to fit in target size 12 [VERI-1209]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_detector.v(86): expression size 32 truncated to fit in target size 12 [VERI-1209]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_detector.v(285): expression size 10 truncated to fit in target size 9 [VERI-1209]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_detector.v(291): expression size 13 truncated to fit in target size 12 [VERI-1209]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_detector.v(292): expression size 13 truncated to fit in target size 12 [VERI-1209]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_detector.v(298): expression size 32 truncated to fit in target size 13 [VERI-1209]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_detector.v(299): expression size 32 truncated to fit in target size 13 [VERI-1209]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_detector.v(300): expression size 32 truncated to fit in target size 13 [VERI-1209]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_detector.v(301): expression size 14 truncated to fit in target size 13 [VERI-1209]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_detector.v(305): expression size 24 truncated to fit in target size 22 [VERI-1209]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_detector.v(311): expression size 10 truncated to fit in target size 9 [VERI-1209]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_detector.v(319): expression size 10 truncated to fit in target size 9 [VERI-1209]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_detector.v(331): expression size 11 truncated to fit in target size 10 [VERI-1209]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_detector.v(332): expression size 11 truncated to fit in target size 10 [VERI-1209]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_detector.v(333): expression size 11 truncated to fit in target size 10 [VERI-1209]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_detector.v(334): expression size 11 truncated to fit in target size 10 [VERI-1209]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_detector.v(348): expression size 11 truncated to fit in target size 10 [VERI-1209]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_detector.v(349): expression size 11 truncated to fit in target size 10 [VERI-1209]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_detector.v(350): expression size 11 truncated to fit in target size 10 [VERI-1209]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_detector.v(351): expression size 11 truncated to fit in target size 10 [VERI-1209]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_detector.v(362): expression size 11 truncated to fit in target size 9 [VERI-1209]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_detector.v(363): expression size 10 truncated to fit in target size 9 [VERI-1209]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_detector.v(364): expression size 11 truncated to fit in target size 9 [VERI-1209]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_detector.v(371): expression size 32 truncated to fit in target size 17 [VERI-1209]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v9_presented_fps.v(4): compiling module 'v9_presented_fps' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v9_fps_overlay.v(4): compiling module 'v9_fps_overlay' [VERI-1018]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v9_fps_overlay.v(8): expression size 12 truncated to fit in target size 8 [VERI-1209]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v9_fps_overlay.v(10): expression size 10 truncated to fit in target size 4 [VERI-1209]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_overlay.v(3): compiling module 'v8_shape_overlay' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_font.v(3): compiling module 'v8_shape_font' [VERI-1018]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_overlay.v(18): expression size 31 truncated to fit in target size 4 [VERI-1209]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_overlay.v(42): expression size 32 truncated to fit in target size 4 [VERI-1209]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_hdmi_display.v(197): expression size 32 truncated to fit in target size 10 [VERI-1209]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_diagnostic_display.v(5): compiling module 'v8_diagnostic_display' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\tmds_channel.v(4): compiling module 'tmds_channel' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\tmds_channel.v(4): compiling module 'tmds_channel(CN=1)' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\tmds_channel.v(4): compiling module 'tmds_channel(CN=2)' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\memory\v8_frame_store.v(9): compiling module 'v8_frame_store(FAST_ENABLE=1)' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\memory\v8_frame_store.v(107): extracting RAM for identifier 'record_words' [VERI-2571]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\control\v8_playback_control.v(4): compiling module 'v8_playback_control' [VERI-1018]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\control\v8_playback_control.v(25): expression size 32 truncated to fit in target size 9 [VERI-1209]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\memory\v8_burst_reverse.v(4): compiling module 'v8_burst_reverse' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\memory\v8_burst_reverse.v(8): extracting RAM for identifier 'mem' [VERI-2571]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\memory\v8_frame_store.v(221): expression size 9 truncated to fit in target size 8 [VERI-1209]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\memory\axi_burst_bridge.v(7): compiling module 'axi_burst_bridge' [VERI-1018]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(184): port 'wr_busy' remains unconnected for this instance [VERI-1927]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(184): port 'wr_data' is not connected on this instance [VERI-2435]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(49): compiling module 'DdrCtrl' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(1840): compiling module 'efx_ddr3_soft_controller_01a90bb89f50493a81d1dcd6ea8da026' [VERI-1018]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(2495): port '**' is not connected on this instance [VERI-2435]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(2495): compiling module '**' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(2610): compiling module '**' [VERI-1018]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(2610): expression size ** truncated to fit in target size ** [VERI-1209]
+INFO     : ../../vdb/src/efinix_maplib.v(884): compiling module 'EFX_SRL8' [VERI-1018]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(2495): actual bit length ** differs from formal bit length *** for port '**' [VERI-1330]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(2610): compiling module '**' [VERI-1018]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(2610): expression size ** truncated to fit in target size ** [VERI-1209]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(2610): compiling module '**' [VERI-1018]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(2610): expression size ** truncated to fit in target size ** [VERI-1209]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(2495): actual bit length ** differs from formal bit length *** for port '**' [VERI-1330]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(3274): compiling module '**' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(1644): compiling module '**' [VERI-1018]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(590): port '**' remains unconnected for this instance [VERI-1927]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(590): compiling module '**' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(1767): compiling module '**' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(1834): compiling module '**' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(1767): compiling module '**' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(1580): compiling module '**' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(1580): extracting RAM for identifier '**' [VERI-2571]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(262): compiling module '**' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(222): compiling module '**' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(1580): compiling module '**' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(1580): extracting RAM for identifier '**' [VERI-2571]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(1580): compiling module '**' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(1580): extracting RAM for identifier '**' [VERI-2571]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(3295): compiling module 'efx_fifo_top_01a90bb89f50493a81d1dcd6ea8da026(FAMILY="TITANIUM",BYPASS_RESET_SYNC=1,MODE="FWFT",DEPTH=64,DATA_WIDTH=128,OUTPUT_REG=1,PROGRAMMABLE_FULL="NONE",PROG_FULL_ASSERT=33,PROG_FULL_NEGATE=33,PROGRAMMABLE_EMPTY="NONE",PROG_EMPTY_ASSERT=0,PROG_EMPTY_NEGATE=2)' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(3615): compiling module 'efx_fifo_ram_01a90bb89f50493a81d1dcd6ea8da026(FAMILY="TITANIUM",WR_DEPTH=64,RD_DEPTH=64,WDATA_WIDTH=128,RDATA_WIDTH=128,WADDR_WIDTH=6,RADDR_WIDTH=6,RAM_MUX_RATIO=1)' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(3652): extracting RAM for identifier 'ram' [VERI-2571]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(4324): compiling module 'efx_fifo_ctl_01a90bb89f50493a81d1dcd6ea8da026(SYNC_CLK=0,MODE="FWFT",WR_DEPTH=64,WADDR_WIDTH=6,RADDR_WIDTH=6,PROG_FULL_ASSERT=33,PROG_FULL_NEGATE=33,PROG_EMPTY_NEGATE=2,OUTPUT_REG=1,OVERFLOW_PROTECT=1,UNDERFLOW_PROTECT=1)' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(4767): compiling module 'efx_fifo_bin2gray_01a90bb89f50493a81d1dcd6ea8da026(WIDTH=7)' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(4129): compiling module 'efx_asyncreg_01a90bb89f50493a81d1dcd6ea8da026(WIDTH=7,ACTIVE_LOW=0,OFF_ASSERTION=1)' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(3931): compiling module 'efx_fifo_gray2bin_01a90bb89f50493a81d1dcd6ea8da026(WIDTH=7)' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(3931): compiling module 'efx_fifo_gray2bin_01a90bb89f50493a81d1dcd6ea8da026(WIDTH=6)' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(3931): compiling module 'efx_fifo_gray2bin_01a90bb89f50493a81d1dcd6ea8da026' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(3931): compiling module 'efx_fifo_gray2bin_01a90bb89f50493a81d1dcd6ea8da026(WIDTH=4)' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(3931): compiling module 'efx_fifo_gray2bin_01a90bb89f50493a81d1dcd6ea8da026(WIDTH=3)' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(3931): compiling module 'efx_fifo_gray2bin_01a90bb89f50493a81d1dcd6ea8da026(WIDTH=2)' [VERI-1018]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(590): actual bit length ** differs from formal bit length *** for port '**' [VERI-1330]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(1580): compiling module '**' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(1580): extracting RAM for identifier '**' [VERI-2571]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(1580): compiling module '**' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(1580): extracting RAM for identifier '**' [VERI-2571]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(1441): port '**' remains unconnected for this instance [VERI-1927]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(1441): compiling module '**' [VERI-1018]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(4885): port '**' remains unconnected for this instance [VERI-1927]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(4885): compiling module '**' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(3295): compiling module 'efx_fifo_top_01a90bb89f50493a81d1dcd6ea8da026(FAMILY="TITANIUM",BYPASS_RESET_SYNC=1,DEPTH=64,DATA_WIDTH=1,PIPELINE_REG=0,OPTIONAL_FLAGS=0,OUTPUT_REG=1,PROGRAMMABLE_FULL="NONE",PROG_FULL_ASSERT=62,PROG_FULL_NEGATE=62,PROGRAMMABLE_EMPTY="NONE",PROG_EMPTY_ASSERT=0,PROG_EMPTY_NEGATE=2)' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(3615): compiling module 'efx_fifo_ram_01a90bb89f50493a81d1dcd6ea8da026(FAMILY="TITANIUM",WR_DEPTH=64,RD_DEPTH=64,WDATA_WIDTH=1,RDATA_WIDTH=1,WADDR_WIDTH=6,RADDR_WIDTH=6,RAM_MUX_RATIO=1)' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(3652): extracting RAM for identifier 'ram' [VERI-2571]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(4324): compiling module 'efx_fifo_ctl_01a90bb89f50493a81d1dcd6ea8da026(SYNC_CLK=0,WR_DEPTH=64,WADDR_WIDTH=6,RADDR_WIDTH=6,PIPELINE_REG=0,ALMOST_FLAG=0,PROG_FULL_ASSERT=62,PROG_FULL_NEGATE=62,PROG_EMPTY_NEGATE=2,OUTPUT_REG=1,HANDSHAKE_FLAG=0,OVERFLOW_PROTECT=1,UNDERFLOW_PROTECT=1)' [VERI-1018]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(4885): actual bit length ** differs from formal bit length *** for port '**' [VERI-1330]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(4885): input port '**' is not connected on this instance [VDB-1013]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(2141): compiling module '**' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(2141): extracting RAM for identifier '**' [VERI-2571]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(2141): **: reading from file '**' [VERI-2855]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(1441): expression size ** truncated to fit in target size ** [VERI-1209]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(1441): net '**' does not have a driver [VDB-1002]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(590): net '**' does not have a driver [VDB-1002]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(590): input port '**' is not connected on this instance [VDB-1013]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(1767): compiling module '**' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(1834): compiling module '**' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(1707): compiling module '**' [VERI-1018]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(2495): input port '**' is not connected on this instance [VDB-1013]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv(117): input port 'wr_data[127]' is not connected on this instance [VDB-1013]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\debug\edge_debug.v(14): compiling module 'edge_debug' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\debug\edge_debug.v(1911): compiling module 'edb_vio_top_8555d14ce55b442ca35794a72d372fc8_renamed_due_excessive_length_1' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\debug\edge_debug.v(2472): compiling module 'vio_core_8555d14ce55b442ca35794a72d372fc8(INT_WIDTH=389,OUT_WIDTH=0,PROBE_OUT_INIT_VAL=1'b0,UUID=128'b010100011011000000101101110011001111000000101001001001010111001111101100000001101100110110010111100111000011000110010111011)' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\debug\edge_debug.v(1691): compiling module 'edb_adbg_crc32_8555d14ce55b442ca35794a72d372fc8' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\debug\edge_debug.v(3276): compiling module 'syncer_8555d14ce55b442ca35794a72d372fc8' [VERI-1018]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\debug\edge_debug.v(2648): net 'probe_out_sync[0]' does not have a driver [VDB-1002]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\debug\edge_debug.v(1911): compiling module 'edb_vio_top_8555d14ce55b442ca35794a72d372fc8(NUM_PROBE_IN=7,NUM_PROBE_OUT=0,UUID=128'b0101001010000111101011100000111111110100101000101001010110000101010101101010011011010100000011011010111011000100101011101000001,PROBE_IN0_WIDTH=32,PROBE_IN1_WIDTH=32,PROBE_IN2_WIDTH=32,PROBE_IN5_WIDTH=12,PROBE_IN6_WIDTH=22)' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\debug\edge_debug.v(2472): compiling module 'vio_core_8555d14ce55b442ca35794a72d372fc8(INT_WIDTH=132,OUT_WIDTH=0,PROBE_OUT_INIT_VAL=1'b0,UUID=128'b0101001010000111101011100000111111110100101000101001010110000101010101101010011011010100000011011010111011000100101011101000001)' [VERI-1018]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\debug\edge_debug.v(2648): net 'probe_out_sync[0]' does not have a driver [VDB-1002]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\debug\edge_debug.v(1911): compiling module 'edb_vio_top_8555d14ce55b442ca35794a72d372fc8(NUM_PROBE_IN=2,NUM_PROBE_OUT=0,UUID=128'b10011110000111110001011000110001001100001110001101001010011111011000111001101111111100011111111111111000000111011101010010101000,PROBE_IN0_WIDTH=32,PROBE_IN1_WIDTH=32)' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\debug\edge_debug.v(2472): compiling module 'vio_core_8555d14ce55b442ca35794a72d372fc8(INT_WIDTH=64,OUT_WIDTH=0,PROBE_OUT_INIT_VAL=1'b0,UUID=128'b10011110000111110001011000110001001100001110001101001010011111011000111001101111111100011111111111111000000111011101010010101000)' [VERI-1018]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\debug\edge_debug.v(2648): net 'probe_out_sync[0]' does not have a driver [VDB-1002]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\debug\edge_debug.v(1911): compiling module 'edb_vio_top_8555d14ce55b442ca35794a72d372fc8(NUM_PROBE_IN=0,UUID=128'b11110010001010101101001001110111000001101000111101000000101111001010000010010011011101011011101011101000011101001110010100011101,PROBE_OUT0_WIDTH=16,PROBE_OUT0_INIT_VAL=256'b0)' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\debug\edge_debug.v(2472): compiling module 'vio_core_8555d14ce55b442ca35794a72d372fc8(INT_WIDTH=0,OUT_WIDTH=16,PROBE_OUT_INIT_VAL=16'b0,UUID=128'b11110010001010101101001001110111000001101000111101000000101111001010000010010011011101011011101011101000011101001110010100011101)' [VERI-1018]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\debug\edge_debug.v(2645): net 'probe_in_sync[0]' does not have a driver [VDB-1002]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\debug\edge_debug.v(3218): net 'probe_in_sync_2d[0][15]' does not have a driver [VDB-1002]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\debug\edge_debug.v(1911): compiling module 'edb_vio_top_8555d14ce55b442ca35794a72d372fc8_renamed_due_excessive_length_2' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\debug\edge_debug.v(2472): compiling module 'vio_core_8555d14ce55b442ca35794a72d372fc8(INT_WIDTH=368,OUT_WIDTH=18,PROBE_OUT_INIT_VAL=18'b0,UUID=128'b0110111011101000011101010101110001011001001001001000011100001011001011110100110010100011101001111110001100001101100001001100)' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\debug\edge_debug.v(1911): compiling module 'edb_vio_top_8555d14ce55b442ca35794a72d372fc8(NUM_PROBE_IN=3,NUM_PROBE_OUT=2,UUID=128'b11001100101011001110101110101110001100011001101001000110101100101000011100100110100010110000010101111100010000001100010110110111,PROBE_IN1_WIDTH=320,PROBE_IN2_WIDTH=2,PROBE_OUT1_WIDTH=2,PROBE_OUT0_INIT_VAL=256'b0,PROBE_OUT1_INIT_VAL=256'b0)' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\debug\edge_debug.v(2472): compiling module 'vio_core_8555d14ce55b442ca35794a72d372fc8(INT_WIDTH=323,OUT_WIDTH=3,PROBE_OUT_INIT_VAL=3'b0,UUID=128'b11001100101011001110101110101110001100011001101001000110101100101000011100100110100010110000010101111100010000001100010110110111)' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\debug\edge_debug.v(1911): compiling module 'edb_vio_top_8555d14ce55b442ca35794a72d372fc8(NUM_PROBE_IN=3,UUID=128'b11111101111001001101100110001110111010100010010001001010110001011001100001111000001010111100111100001010001010100000111000010011,PROBE_IN0_WIDTH=37,PROBE_IN2_WIDTH=320,PROBE_OUT0_WIDTH=37,PROBE_OUT0_INIT_VAL=256'b01000110011100000100000000000110011000)' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\debug\edge_debug.v(2472): compiling module 'vio_core_8555d14ce55b442ca35794a72d372fc8(INT_WIDTH=358,OUT_WIDTH=37,PROBE_OUT_INIT_VAL=37'b1000110011100000100000000000110011000,UUID=128'b11111101111001001101100110001110111010100010010001001010110001011001100001111000001010111100111100001010001010100000111000010011)' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\debug\edge_debug.v(1911): compiling module 'edb_vio_top_8555d14ce55b442ca35794a72d372fc8(NUM_PROBE_OUT=0,UUID=128'b01101100010000010101101100101111111110011111000001000111001100011000001111100001001001110110100100100000011101110110100101000000,PROBE_IN0_WIDTH=224)' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\debug\edge_debug.v(2472): compiling module 'vio_core_8555d14ce55b442ca35794a72d372fc8(INT_WIDTH=224,OUT_WIDTH=0,PROBE_OUT_INIT_VAL=1'b0,UUID=128'b01101100010000010101101100101111111110011111000001000111001100011000001111100001001001110110100100100000011101110110100101000000)' [VERI-1018]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\debug\edge_debug.v(2648): net 'probe_out_sync[0]' does not have a driver [VDB-1002]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\debug\edge_debug.v(1911): compiling module 'edb_vio_top_8555d14ce55b442ca35794a72d372fc8(NUM_PROBE_OUT=0,UUID=128'b10011110010000110111011000001001100101001111101101000111110010101010011111011011001110000000111101111011100111001101111100011001,PROBE_IN0_WIDTH=320)' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\debug\edge_debug.v(2472): compiling module 'vio_core_8555d14ce55b442ca35794a72d372fc8(INT_WIDTH=320,OUT_WIDTH=0,PROBE_OUT_INIT_VAL=1'b0,UUID=128'b10011110010000110111011000001001100101001111101101000111110010101010011111011011001110000000111101111011100111001101111100011001)' [VERI-1018]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\debug\edge_debug.v(2648): net 'probe_out_sync[0]' does not have a driver [VDB-1002]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\debug\edge_debug.v(1769): compiling module 'debug_hub_8555d14ce55b442ca35794a72d372fc8' [VERI-1018]
+INFO     : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\control\v8_sevenseg_status.v(5): compiling module 'v8_sevenseg_status' [VERI-1018]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\control\v8_sevenseg_status.v(45): expression size 5 truncated to fit in target size 4 [VERI-1209]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\control\v8_sevenseg_status.v(46): expression size 5 truncated to fit in target size 4 [VERI-1209]
+INFO     : Elaboration took 0.7358025 seconds [FlowMsg::StageDuration]
+INFO     :     Elaboration took 0.671875 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Elaboration virtual memory usage: begin = 62.8 MB, end = 295.004 MB, delta = 232.204 MB [FlowMsg::VMUsage]
+INFO     :     Elaboration peak virtual memory usage = 295.004 MB [FlowMsg::VMUsage::Peak]
+INFO     : Elaboration resident set memory usage: begin = 71.788 MB, end = 308.416 MB, delta = 236.628 MB [FlowMsg::RSSUsage]
+INFO     :     Elaboration peak resident set memory usage = 308.416 MB [FlowMsg::RSSUsage::Peak]
+INFO     : ***** Ending Elaboration ... *****
+INFO     : ... Setting Synthesis Option: mode=speed
+INFO     : ***** Beginning Reading Mapping Library ... *****
+INFO     : Reading Mapping Library took 0.0059188 seconds [FlowMsg::StageDuration]
+INFO     :     Reading Mapping Library took 0 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Reading Mapping Library virtual memory usage: begin = 295.004 MB, end = 295.004 MB, delta = 0 MB [FlowMsg::VMUsage]
+INFO     :     Reading Mapping Library peak virtual memory usage = 295.004 MB [FlowMsg::VMUsage::Peak]
+INFO     : Reading Mapping Library resident set memory usage: begin = 309.524 MB, end = 309.524 MB, delta = 0 MB [FlowMsg::RSSUsage]
+INFO     :     Reading Mapping Library peak resident set memory usage = 309.524 MB [FlowMsg::RSSUsage::Peak]
+INFO     : ***** Ending Reading Mapping Library ... *****
+INFO     : ... Pre-synthesis checks begin
+WARNING  : Re-wiring to GND non-driven net/port '_0046_[5]' in module 'MIPIRx4LaneFre'. (E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v:51) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net/port '_0046_[4]' in module 'MIPIRx4LaneFre'. (E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v:51) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net/port '_0046_[3]' in module 'MIPIRx4LaneFre'. (E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v:51) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net/port '_0046_[2]' in module 'MIPIRx4LaneFre'. (E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v:51) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net/port '_0046_[1]' in module 'MIPIRx4LaneFre'. (E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v:51) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net/port '_0046_[0]' in module 'MIPIRx4LaneFre'. (E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v:51) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net/port '_0054_[5]' in module 'MIPIRx4LaneFre'. (E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v:59) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net/port '_0054_[4]' in module 'MIPIRx4LaneFre'. (E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v:59) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net/port '_0054_[3]' in module 'MIPIRx4LaneFre'. (E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v:59) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net/port '_0054_[2]' in module 'MIPIRx4LaneFre'. (E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v:59) [EFX-0201]
+WARNING  : (The above message was generated too many times, subsequent similar messages will be muted.) [EFX-0201]
+WARNING  : Removing redundant signal : _1344_. (E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v:1349) [EFX-0200]
+WARNING  : Removing redundant signal : _1345_. (E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v:1350) [EFX-0200]
+WARNING  : Removing redundant signal : _0090_[3:1]. (E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v:95) [EFX-0200]
+WARNING  : Removing redundant signal : _0098_[31:24]. (E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v:103) [EFX-0200]
+WARNING  : Removing redundant signal : _0107_[255:225]. (E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v:112) [EFX-0200]
+WARNING  : Removing redundant signal : _0107_[223:32]. (E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v:112) [EFX-0200]
+WARNING  : Removing redundant signal : _0168_[3:1]. (E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v:173) [EFX-0200]
+WARNING  : Removing redundant signal : _0176_[31:24]. (E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v:181) [EFX-0200]
+WARNING  : Removing redundant signal : _0179_[14:0]. (E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v:184) [EFX-0200]
+WARNING  : Removing redundant signal : _0186_[255:225]. (E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v:191) [EFX-0200]
+WARNING  : Removing redundant signal : _0186_[223:32]. (E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v:191) [EFX-0200]
+WARNING  : Removing redundant signal : _0190_[14:0]. (E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v:195) [EFX-0200]
+WARNING  : Removing redundant signal : _0333_[63:48]. (E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v:338) [EFX-0200]
+WARNING  : Removing redundant signal : _0334_[63:48]. (E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v:339) [EFX-0200]
+WARNING  : Removing redundant signal : _0385_[3:2]. (E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v:390) [EFX-0200]
+WARNING  : Removing redundant signal : _0399_[31:24]. (E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v:404) [EFX-0200]
+WARNING  : Removing redundant signal : _0405_[13:0]. (E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v:410) [EFX-0200]
+WARNING  : Removing redundant signal : _0406_[1:0]. (E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v:411) [EFX-0200]
+WARNING  : Removing redundant signal : _0420_[31:8]. (E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v:425) [EFX-0200]
+WARNING  : Removing redundant signal : _0420_[3:0]. (E:\0Efinity_prj\question4_ti60_sc2210_version10\vendor\MIPIRx4LaneFre.v:425) [EFX-0200]
+WARNING  : (The above message was generated too many times, subsequent similar messages will be muted.) [EFX-0200]
+INFO     : ... Memory 'mem' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\common\async_fifo.v:25) [EFX-0677]
+INFO     : ... Memory 'mem' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\common\async_fifo.v:25) [EFX-0677]
+INFO     : ... Memory 'mem' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\common\async_fifo.v:25) [EFX-0677]
+INFO     : ... Memory 'lines' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\window3x3.v:23) [EFX-0677]
+INFO     : ... Memory 'lines' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\window3x3.v:23) [EFX-0677]
+INFO     : ... Memory 'lines' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\window3x3.v:23) [EFX-0677]
+INFO     : ... Memory 'lines' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\window3x3.v:23) [EFX-0677]
+INFO     : ... Memory 'lines' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\window3x3.v:23) [EFX-0677]
+INFO     : ... Memory 'line_n' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_components.v:22) [EFX-0677]
+INFO     : ... Memory 'line_ne' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_components.v:22) [EFX-0677]
+INFO     : ... Memory 'parent' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_components.v:23) [EFX-0677]
+INFO     : ... Memory 'seed' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_components.v:24) [EFX-0677]
+INFO     : ... Memory 'root_seed' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_components.v:24) [EFX-0677]
+INFO     : ... Memory 'mark0' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_components.v:25) [EFX-0677]
+INFO     : ... Memory 'mark1' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_components.v:25) [EFX-0677]
+INFO     : ... Memory 'mark2' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_components.v:25) [EFX-0677]
+INFO     : ... Memory 'mark3' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_components.v:25) [EFX-0677]
+INFO     : ... Memory 'line' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_label_scale.v:9) [EFX-0677]
+INFO     : ... Memory 'lines' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\window3x3.v:23) [EFX-0677]
+INFO     : ... Memory 'strong_n' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_hysteresis.v:26) [EFX-0677]
+INFO     : ... Memory 'strong_ne' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_hysteresis.v:27) [EFX-0677]
+INFO     : ... Memory 'line' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_scale.v:9) [EFX-0677]
+INFO     : ... Memory 'mem' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\common\async_fifo.v:25) [EFX-0677]
+INFO     : ... Memory 'mem' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\common\async_fifo.v:25) [EFX-0677]
+INFO     : ... Memory 'line' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_edges.v:11) [EFX-0677]
+INFO     : ... Memory 'pool_line' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_edges.v:12) [EFX-0677]
+INFO     : ... Memory 'misses' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_tracker.v:11) [EFX-0677]
+INFO     : ... Memory 'pending_kind' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_tracker.v:12) [EFX-0677]
+INFO     : ... Memory 'pending_count' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_tracker.v:12) [EFX-0677]
+INFO     : ... Memory 'pending_position' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_tracker.v:13) [EFX-0677]
+INFO     : ... Memory 'position_count' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_tracker.v:13) [EFX-0677]
+INFO     : ... Memory 'parent' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_detector.v:25) [EFX-0677]
+INFO     : ... Memory 'rows' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_detector.v:31) [EFX-0677]
+INFO     : ... Memory 'bank_row' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_hdmi_display.v:34) [EFX-0677]
+INFO     : ... Memory 'bank[0].mem' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_hdmi_display.v:54) [EFX-0677]
+INFO     : ... Memory 'bank[1].mem' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_hdmi_display.v:54) [EFX-0677]
+INFO     : ... Memory 'bank[2].mem' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_hdmi_display.v:54) [EFX-0677]
+INFO     : ... Memory 'bank[3].mem' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_hdmi_display.v:54) [EFX-0677]
+INFO     : ... Memory 'mem' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\memory\v8_burst_reverse.v:8) [EFX-0677]
+INFO     : ... Memory 'record_words' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\memory\v8_frame_store.v:107) [EFX-0677]
+INFO     : ... Memory 'ram' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv:1580) [EFX-0677]
+INFO     : ... Memory 'ram' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv:1580) [EFX-0677]
+INFO     : ... Memory 'ram' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv:1580) [EFX-0677]
+INFO     : ... Memory 'ram' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv:3652) [EFX-0677]
+INFO     : ... Memory 'ram' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv:1580) [EFX-0677]
+INFO     : ... Memory 'ram' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv:1580) [EFX-0677]
+INFO     : ... Memory 'ram' is not initialized, assuming empty initial contents. (E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv:3652) [EFX-0677]
+INFO     : Module Instance 'bram_u2' input pin 'wr_en_i' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'bram_u2' input pin 'rd_en_i' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'bram_u1' input pin 'wr_en_i' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'bram_u1' input pin 'rd_en_i' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'bram_u0' input pin 'wr_en_i' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'bram_u0' input pin 'rd_en_i' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wclk' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[0]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[1]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[2]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[3]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[4]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[5]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[6]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[7]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[8]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[9]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[10]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[11]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[12]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[13]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[14]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[15]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[16]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[17]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[18]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[19]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[20]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[21]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[22]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[23]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[24]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[25]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[26]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[27]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[28]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[29]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[30]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[31]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[32]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[33]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[34]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[35]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[36]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[37]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[38]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[39]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[40]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[41]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[42]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[43]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[44]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[45]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[46]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[47]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[48]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[49]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[50]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[51]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[52]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[53]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[54]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[55]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[56]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[57]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[58]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[59]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[60]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[61]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[62]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[63]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[64]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[65]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[66]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[67]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[68]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[69]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[70]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[71]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'waddr[0]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'waddr[1]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'waddr[2]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'waddr[3]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'waddr[4]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'waddr[5]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'waddr[6]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'waddr[7]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'waddr[8]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'we' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 're' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'fifo_rdpush' input pin 'io_push_payload[0]' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'fifo_rdpush' input pin 'io_pop_ready' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'fifo_ack' input pin 'io_pop_ready' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'mux0' input pin 'b_rd_en' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'phase_u0' input pin 'pll_sel[0]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'phase_u0' input pin 'pll_sel[1]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'phase_u0' input pin 'pll_sel[2]' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'phase_u0' input pin 'pll_sel[3]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'phase_u0' input pin 'pll_sel[4]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'inst_arburst_fifo' input pin 'I_Wr_Data[2]' is tied to constant (=0). [EFX-0266]
+INFO     : (The above message was generated too many times, subsequent similar messages will be muted.) [EFX-0266]
+INFO     : ... Pre-synthesis checks end (Real time : 0s)
+INFO     : ... NameSpace init begin
+INFO     : ... NameSpace init end (Real time : 0s)
+INFO     : ... Mapping design "edge_camera_v10_top"
+INFO     : ... Hierarchical pre-synthesis "reset_sync" begin
+INFO     : ... Hierarchical pre-synthesis "reset_sync" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "v8_csi_lp_align" begin
+INFO     : ... Hierarchical pre-synthesis "v8_csi_lp_align" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "MIPIRx4LaneFre" begin
+INFO     : ... Hierarchical pre-synthesis "MIPIRx4LaneFre" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "I2C_SC2210_19201080_4Lanes_Config" begin
+INFO     : ... Wide MUX mapping to ram-net, output: 'LUT_DATA' select size : 9 output width: 24
+INFO     : ... Hierarchical pre-synthesis "I2C_SC2210_19201080_4Lanes_Config" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "camera_i2c" begin
+INFO     : ... Hierarchical pre-synthesis "camera_i2c" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "matrix_keypad" begin
+INFO     : ... Hierarchical pre-synthesis "matrix_keypad" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "matrix_controls" begin
+INFO     : ... Hierarchical pre-synthesis "matrix_controls" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "key_debounce" begin
+INFO     : ... Hierarchical pre-synthesis "key_debounce" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "v8_controls" begin
+INFO     : ... Hierarchical pre-synthesis "v8_controls" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "sc2210_raw8_unpack" begin
+INFO     : ... Hierarchical pre-synthesis "sc2210_raw8_unpack" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "camera_pack" begin
+INFO     : ... Hierarchical pre-synthesis "camera_pack" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "async_fifo(WIDTH=146,ADDR=11)" begin
+INFO     : ... Hierarchical pre-synthesis "async_fifo(WIDTH=146,ADDR=11)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "async_fifo(ADDR=10)" begin
+INFO     : ... Hierarchical pre-synthesis "async_fifo(ADDR=10)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "async_fifo(WIDTH=26,ADDR=2)" begin
+INFO     : ... Hierarchical pre-synthesis "async_fifo(WIDTH=26,ADDR=2)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "window3x3(WIDTH=1930,HEIGHT=1090)" begin
+INFO     : ... Hierarchical pre-synthesis "window3x3(WIDTH=1930,HEIGHT=1090)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "bayer_rgb" begin
+INFO     : ... Hierarchical pre-synthesis "bayer_rgb" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "v8_rgb_diagnostics" begin
+INFO     : ... Hierarchical pre-synthesis "v8_rgb_diagnostics" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "rgb_to_y8" begin
+INFO     : ... Hierarchical pre-synthesis "rgb_to_y8" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "v8_white_balance" begin
+INFO     : ... Hierarchical pre-synthesis "v8_white_balance" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "window3x3(WIDTH=1928,HEIGHT=1088,BITS=24)" begin
+INFO     : ... Hierarchical pre-synthesis "window3x3(WIDTH=1928,HEIGHT=1088,BITS=24)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "median9_pipe" begin
+INFO     : ... Hierarchical pre-synthesis "median9_pipe" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "window3x3(WIDTH=1926,HEIGHT=1086,BITS=32)" begin
+INFO     : ... Hierarchical pre-synthesis "window3x3(WIDTH=1926,HEIGHT=1086,BITS=32)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "window3x3(WIDTH=1924,HEIGHT=1084,BITS=32)" begin
+INFO     : ... Hierarchical pre-synthesis "window3x3(WIDTH=1924,HEIGHT=1084,BITS=32)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "window3x3(WIDTH=1922,HEIGHT=1082,BITS=37)" begin
+INFO     : ... Hierarchical pre-synthesis "window3x3(WIDTH=1922,HEIGHT=1082,BITS=37)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "v8_sobel_support" begin
+INFO     : ... Hierarchical pre-synthesis "v8_sobel_support" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "v8_frontend" begin
+INFO     : ... Hierarchical pre-synthesis "v8_frontend" end (Real time : 1s)
+INFO     : ... Hierarchical pre-synthesis "v8_components(LABEL_LIMIT=8192)" begin
+INFO     : ... Hierarchical pre-synthesis "v8_components(LABEL_LIMIT=8192)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "v8_label_scale" begin
+INFO     : ... Hierarchical pre-synthesis "v8_label_scale" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "v8_gearbox" begin
+INFO     : ... Hierarchical pre-synthesis "v8_gearbox" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "v8_gearbox(IW=128,OW=96)" begin
+INFO     : ... Hierarchical pre-synthesis "v8_gearbox(IW=128,OW=96)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "window3x3(WIDTH=1922,HEIGHT=1082,BITS=32)" begin
+INFO     : ... Hierarchical pre-synthesis "window3x3(WIDTH=1922,HEIGHT=1082,BITS=32)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "v8_hysteresis" begin
+INFO     : ... Hierarchical pre-synthesis "v8_hysteresis" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "v8_scale" begin
+INFO     : ... Hierarchical pre-synthesis "v8_scale" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "v8_processor_io" begin
+INFO     : ... Hierarchical pre-synthesis "v8_processor_io" end (Real time : 1s)
+INFO     : ... Hierarchical pre-synthesis "async_fifo(WIDTH=10,ADDR=4)" begin
+INFO     : ... Hierarchical pre-synthesis "async_fifo(WIDTH=10,ADDR=4)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "async_fifo(WIDTH=152,ADDR=9)" begin
+INFO     : ... Hierarchical pre-synthesis "async_fifo(WIDTH=152,ADDR=9)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "v9_camera_fps" begin
+INFO     : ... Hierarchical pre-synthesis "v9_camera_fps" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "v8_shape_edges" begin
+INFO     : ... Hierarchical pre-synthesis "v8_shape_edges" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "v8_shape_tracker" begin
+WARNING  : Mapping into logic memory block 'misses' (18 bits) (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_tracker.v:11) because size is too small (<=64) [EFX-0657]
+WARNING  : Mapping into logic memory block 'pending_kind' (12 bits) (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_tracker.v:12) because size is too small (<=64) [EFX-0657]
+WARNING  : Mapping into logic memory block 'pending_count' (18 bits) (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_tracker.v:12) because size is too small (<=64) [EFX-0657]
+WARNING  : Mapping into logic memory block 'position_count' (12 bits) (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_tracker.v:13) because size is too small (<=64) [EFX-0657]
+INFO     : ... Hierarchical pre-synthesis "v8_shape_tracker" end (Real time : 1s)
+INFO     : ... Hierarchical pre-synthesis "v8_shape_ram" begin
+INFO     : ... Hierarchical pre-synthesis "v8_shape_ram" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "v8_shape_ram(WIDTH=20,ROW_BITS=9,BANK_BITS=3,BANKS=8)" begin
+INFO     : ... Hierarchical pre-synthesis "v8_shape_ram(WIDTH=20,ROW_BITS=9,BANK_BITS=3,BANKS=8)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "v8_shape_detector" begin
+INFO     : ... Hierarchical pre-synthesis "v8_shape_detector" end (Real time : 1s)
+INFO     : ... Hierarchical pre-synthesis "v9_presented_fps" begin
+INFO     : ... Hierarchical pre-synthesis "v9_presented_fps" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "v9_fps_overlay" begin
+INFO     : ... Wide MUX mapping to ram-net, output: 'digit_bits' select size : 4 output width: 35
+INFO     : ... Hierarchical pre-synthesis "v9_fps_overlay" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "v8_shape_font" begin
+INFO     : ... Hierarchical pre-synthesis "v8_shape_font" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "v8_shape_overlay" begin
+INFO     : ... Hierarchical pre-synthesis "v8_shape_overlay" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "v8_hdmi_display(FPS_ENABLE=1,CAMERA_FPS_ENABLE=1)" begin
+INFO     : ... Hierarchical pre-synthesis "v8_hdmi_display(FPS_ENABLE=1,CAMERA_FPS_ENABLE=1)" end (Real time : 2s)
+INFO     : ... Hierarchical pre-synthesis "v8_diagnostic_display" begin
+INFO     : ... Hierarchical pre-synthesis "v8_diagnostic_display" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "tmds_channel" begin
+INFO     : ... Hierarchical pre-synthesis "tmds_channel" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "tmds_channel(CN=1)" begin
+INFO     : ... Hierarchical pre-synthesis "tmds_channel(CN=1)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "tmds_channel(CN=2)" begin
+INFO     : ... Hierarchical pre-synthesis "tmds_channel(CN=2)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "v8_playback_control" begin
+INFO     : ... Hierarchical pre-synthesis "v8_playback_control" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "v8_burst_reverse" begin
+INFO     : ... Hierarchical pre-synthesis "v8_burst_reverse" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "v8_frame_store(FAST_ENABLE=1)" begin
+INFO     : ... Hierarchical pre-synthesis "v8_frame_store(FAST_ENABLE=1)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "axi_burst_bridge" begin
+INFO     : ... Hierarchical pre-synthesis "axi_burst_bridge" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "Ddr_Ctrl_Sc_Fifo_01a90bb89f50493a81d1dcd6ea8da026(DATA_WIDTH=8,DATA_DEPTH=32)" begin
+INFO     : ... Hierarchical pre-synthesis "Ddr_Ctrl_Sc_Fifo_01a90bb89f50493a81d1dcd6ea8da026(DATA_WIDTH=8,DATA_DEPTH=32)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "Ddr_Ctrl_Sc_Fifo_01a90bb89f50493a81d1dcd6ea8da026(DATA_DEPTH=32)" begin
+INFO     : ... Hierarchical pre-synthesis "Ddr_Ctrl_Sc_Fifo_01a90bb89f50493a81d1dcd6ea8da026(DATA_DEPTH=32)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "Ddr_Ctrl_Sc_Fifo_01a90bb89f50493a81d1dcd6ea8da026(DATA_WIDTH=48,DATA_DEPTH=32)" begin
+INFO     : ... Hierarchical pre-synthesis "Ddr_Ctrl_Sc_Fifo_01a90bb89f50493a81d1dcd6ea8da026(DATA_WIDTH=48,DATA_DEPTH=32)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "native_mux_01a90bb89f50493a81d1dcd6ea8da026" begin
+INFO     : ... Hierarchical pre-synthesis "native_mux_01a90bb89f50493a81d1dcd6ea8da026" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "reset_sub_01a90bb89f50493a81d1dcd6ea8da026(OUT_RST_ACTIVE="LOW",CYCLE=4)" begin
+INFO     : ... Hierarchical pre-synthesis "reset_sub_01a90bb89f50493a81d1dcd6ea8da026(OUT_RST_ACTIVE="LOW",CYCLE=4)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "reset_ctrl_01a90bb89f50493a81d1dcd6ea8da026(NUM_RST=4,CYCLE=4,IN_RST_ACTIVE=4'b0,OUT_RST_ACTIVE=4'b0)" begin
+INFO     : ... Hierarchical pre-synthesis "reset_ctrl_01a90bb89f50493a81d1dcd6ea8da026(NUM_RST=4,CYCLE=4,IN_RST_ACTIVE=4'b0,OUT_RST_ACTIVE=4'b0)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "reset_ctrl_01a90bb89f50493a81d1dcd6ea8da026(CYCLE=4,IN_RST_ACTIVE=4'b0,OUT_RST_ACTIVE=4'b0)" begin
+INFO     : ... Hierarchical pre-synthesis "reset_ctrl_01a90bb89f50493a81d1dcd6ea8da026(CYCLE=4,IN_RST_ACTIVE=4'b0,OUT_RST_ACTIVE=4'b0)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "buffercc_01a90bb89f50493a81d1dcd6ea8da026" begin
+INFO     : ... Hierarchical pre-synthesis "buffercc_01a90bb89f50493a81d1dcd6ea8da026" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "buffercc_1_01a90bb89f50493a81d1dcd6ea8da026" begin
+INFO     : ... Hierarchical pre-synthesis "buffercc_1_01a90bb89f50493a81d1dcd6ea8da026" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "streamfifocc64_01a90bb89f50493a81d1dcd6ea8da026(DATA_WIDTH=32)" begin
+INFO     : ... Hierarchical pre-synthesis "streamfifocc64_01a90bb89f50493a81d1dcd6ea8da026(DATA_WIDTH=32)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "streamfifocc64_01a90bb89f50493a81d1dcd6ea8da026(DATA_WIDTH=144)" begin
+INFO     : ... Hierarchical pre-synthesis "streamfifocc64_01a90bb89f50493a81d1dcd6ea8da026(DATA_WIDTH=144)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "streamfifocc64_01a90bb89f50493a81d1dcd6ea8da026(DATA_WIDTH=1)" begin
+WARNING  : Mapping into logic memory block 'ram' (64 bits) (E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv:1580) because size is too small (<=64) [EFX-0657]
+INFO     : ... Hierarchical pre-synthesis "streamfifocc64_01a90bb89f50493a81d1dcd6ea8da026(DATA_WIDTH=1)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_ram_01a90bb89f50493a81d1dcd6ea8da026(FAMILY="TITANIUM",WR_DEPTH=64,RD_DEPTH=64,WDATA_WIDTH=128,RDATA_WIDTH=128,WADDR_WIDTH=6,RADDR_WIDTH=6,RAM_MUX_RATIO=1)" begin
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_ram_01a90bb89f50493a81d1dcd6ea8da026(FAMILY="TITANIUM",WR_DEPTH=64,RD_DEPTH=64,WDATA_WIDTH=128,RDATA_WIDTH=128,WADDR_WIDTH=6,RADDR_WIDTH=6,RAM_MUX_RATIO=1)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_bin2gray_01a90bb89f50493a81d1dcd6ea8da026(WIDTH=7)" begin
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_bin2gray_01a90bb89f50493a81d1dcd6ea8da026(WIDTH=7)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_asyncreg_01a90bb89f50493a81d1dcd6ea8da026(WIDTH=7,ACTIVE_LOW=0,OFF_ASSERTION=1)" begin
+INFO     : ... Hierarchical pre-synthesis "efx_asyncreg_01a90bb89f50493a81d1dcd6ea8da026(WIDTH=7,ACTIVE_LOW=0,OFF_ASSERTION=1)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_01a90bb89f50493a81d1dcd6ea8da026(WIDTH=2)" begin
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_01a90bb89f50493a81d1dcd6ea8da026(WIDTH=2)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_01a90bb89f50493a81d1dcd6ea8da026(WIDTH=3)" begin
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_01a90bb89f50493a81d1dcd6ea8da026(WIDTH=3)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_01a90bb89f50493a81d1dcd6ea8da026(WIDTH=4)" begin
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_01a90bb89f50493a81d1dcd6ea8da026(WIDTH=4)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_01a90bb89f50493a81d1dcd6ea8da026" begin
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_01a90bb89f50493a81d1dcd6ea8da026" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_01a90bb89f50493a81d1dcd6ea8da026(WIDTH=6)" begin
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_01a90bb89f50493a81d1dcd6ea8da026(WIDTH=6)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_01a90bb89f50493a81d1dcd6ea8da026(WIDTH=7)" begin
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_01a90bb89f50493a81d1dcd6ea8da026(WIDTH=7)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_ctl_01a90bb89f50493a81d1dcd6ea8da026(SYNC_CLK=0,MODE="FWFT",WR_DEPTH=64,WADDR_WIDTH=6,RADDR_WIDTH=6,PROG_FULL_ASSERT=33,PROG_FULL_NEGATE=33,PROG_EMPTY_NEGATE=2,OUTPUT_REG=1,OVERFLOW_PROTECT=1,UNDERFLOW_PROTECT=1)" begin
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_ctl_01a90bb89f50493a81d1dcd6ea8da026(SYNC_CLK=0,MODE="FWFT",WR_DEPTH=64,WADDR_WIDTH=6,RADDR_WIDTH=6,PROG_FULL_ASSERT=33,PROG_FULL_NEGATE=33,PROG_EMPTY_NEGATE=2,OUTPUT_REG=1,OVERFLOW_PROTECT=1,UNDERFLOW_PROTECT=1)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_top_01a90bb89f50493a81d1dcd6ea8da026(FAMILY="TITANIUM",BYPASS_RESET_SYNC=1,MODE="FWFT",DEPTH=64,DATA_WIDTH=128,OUTPUT_REG=1,PROGRAMMABLE_FULL="NONE",PROG_FULL_ASSERT=33,PROG_FULL_NEGATE=33,PROGRAMMABLE_EMPTY="NONE",PROG_EMPTY_ASSERT=0,PROG_EMPTY_NEGATE=2)" begin
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_top_01a90bb89f50493a81d1dcd6ea8da026(FAMILY="TITANIUM",BYPASS_RESET_SYNC=1,MODE="FWFT",DEPTH=64,DATA_WIDTH=128,OUTPUT_REG=1,PROGRAMMABLE_FULL="NONE",PROG_FULL_ASSERT=33,PROG_FULL_NEGATE=33,PROGRAMMABLE_EMPTY="NONE",PROG_EMPTY_ASSERT=0,PROG_EMPTY_NEGATE=2)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "streamfifocc64_01a90bb89f50493a81d1dcd6ea8da026(DATA_WIDTH=2)" begin
+INFO     : ... Hierarchical pre-synthesis "streamfifocc64_01a90bb89f50493a81d1dcd6ea8da026(DATA_WIDTH=2)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "streamfifocc64_01a90bb89f50493a81d1dcd6ea8da026(DATA_WIDTH=52)" begin
+INFO     : ... Hierarchical pre-synthesis "streamfifocc64_01a90bb89f50493a81d1dcd6ea8da026(DATA_WIDTH=52)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_ram_01a90bb89f50493a81d1dcd6ea8da026(FAMILY="TITANIUM",WR_DEPTH=64,RD_DEPTH=64,WDATA_WIDTH=1,RDATA_WIDTH=1,WADDR_WIDTH=6,RADDR_WIDTH=6,RAM_MUX_RATIO=1)" begin
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_ram_01a90bb89f50493a81d1dcd6ea8da026(FAMILY="TITANIUM",WR_DEPTH=64,RD_DEPTH=64,WDATA_WIDTH=1,RDATA_WIDTH=1,WADDR_WIDTH=6,RADDR_WIDTH=6,RAM_MUX_RATIO=1)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_ctl_01a90bb89f50493a81d1dcd6ea8da026(SYNC_CLK=0,WR_DEPTH=64,WADDR_WIDTH=6,RADDR_WIDTH=6,PIPELINE_REG=0,ALMOST_FLAG=0,PROG_FULL_ASSERT=62,PROG_FULL_NEGATE=62,PROG_EMPTY_NEGATE=2,OUTPUT_REG=1,HANDSHAKE_FLAG=0,OVERFLOW_PROTECT=1,UNDERFLOW_PROTECT=1)" begin
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_ctl_01a90bb89f50493a81d1dcd6ea8da026(SYNC_CLK=0,WR_DEPTH=64,WADDR_WIDTH=6,RADDR_WIDTH=6,PIPELINE_REG=0,ALMOST_FLAG=0,PROG_FULL_ASSERT=62,PROG_FULL_NEGATE=62,PROG_EMPTY_NEGATE=2,OUTPUT_REG=1,HANDSHAKE_FLAG=0,OVERFLOW_PROTECT=1,UNDERFLOW_PROTECT=1)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_top_01a90bb89f50493a81d1dcd6ea8da026(FAMILY="TITANIUM",BYPASS_RESET_SYNC=1,DEPTH=64,DATA_WIDTH=1,PIPELINE_REG=0,OPTIONAL_FLAGS=0,OUTPUT_REG=1,PROGRAMMABLE_FULL="NONE",PROG_FULL_ASSERT=62,PROG_FULL_NEGATE=62,PROGRAMMABLE_EMPTY="NONE",PROG_EMPTY_ASSERT=0,PROG_EMPTY_NEGATE=2)" begin
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_top_01a90bb89f50493a81d1dcd6ea8da026(FAMILY="TITANIUM",BYPASS_RESET_SYNC=1,DEPTH=64,DATA_WIDTH=1,PIPELINE_REG=0,OPTIONAL_FLAGS=0,OUTPUT_REG=1,PROGRAMMABLE_FULL="NONE",PROG_FULL_ASSERT=62,PROG_FULL_NEGATE=62,PROGRAMMABLE_EMPTY="NONE",PROG_EMPTY_ASSERT=0,PROG_EMPTY_NEGATE=2)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "bram_wrapper_fifo_01a90bb89f50493a81d1dcd6ea8da026" begin
+INFO     : ... Hierarchical pre-synthesis "bram_wrapper_fifo_01a90bb89f50493a81d1dcd6ea8da026" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "user_dual_port_ram_01a90bb89f50493a81d1dcd6ea8da026(DATA_WIDTH=72,OUTPUT_REG="FALSE",RAM_INIT_FILE="ddr3_controller.bin")" begin
+INFO     : ... Hierarchical pre-synthesis "user_dual_port_ram_01a90bb89f50493a81d1dcd6ea8da026(DATA_WIDTH=72,OUTPUT_REG="FALSE",RAM_INIT_FILE="ddr3_controller.bin")" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "ddr_3_controller_01a90bb89f50493a81d1dcd6ea8da026" begin
+INFO     : ... Hierarchical pre-synthesis "ddr_3_controller_01a90bb89f50493a81d1dcd6ea8da026" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "controller_top_01a90bb89f50493a81d1dcd6ea8da026" begin
+INFO     : ... Hierarchical pre-synthesis "controller_top_01a90bb89f50493a81d1dcd6ea8da026" end (Real time : 1s)
+INFO     : ... Hierarchical pre-synthesis "reset_sub_01a90bb89f50493a81d1dcd6ea8da026(OUT_RST_ACTIVE="LOW",CYCLE=5)" begin
+INFO     : ... Hierarchical pre-synthesis "reset_sub_01a90bb89f50493a81d1dcd6ea8da026(OUT_RST_ACTIVE="LOW",CYCLE=5)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "reset_ctrl_01a90bb89f50493a81d1dcd6ea8da026(NUM_RST=2,CYCLE=5,IN_RST_ACTIVE=2'b0,OUT_RST_ACTIVE=2'b0)" begin
+INFO     : ... Hierarchical pre-synthesis "reset_ctrl_01a90bb89f50493a81d1dcd6ea8da026(NUM_RST=2,CYCLE=5,IN_RST_ACTIVE=2'b0,OUT_RST_ACTIVE=2'b0)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "phase_shift_01a90bb89f50493a81d1dcd6ea8da026" begin
+INFO     : ... Hierarchical pre-synthesis "phase_shift_01a90bb89f50493a81d1dcd6ea8da026" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "top_01a90bb89f50493a81d1dcd6ea8da026" begin
+INFO     : ... Hierarchical pre-synthesis "top_01a90bb89f50493a81d1dcd6ea8da026" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_ddr3_axi_01a90bb89f50493a81d1dcd6ea8da026" begin
+INFO     : ... Hierarchical pre-synthesis "efx_ddr3_axi_01a90bb89f50493a81d1dcd6ea8da026" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_ddr3_soft_controller_01a90bb89f50493a81d1dcd6ea8da026" begin
+INFO     : ... Hierarchical pre-synthesis "efx_ddr3_soft_controller_01a90bb89f50493a81d1dcd6ea8da026" end (Real time : 1s)
+INFO     : ... Hierarchical pre-synthesis "DdrCtrl" begin
+INFO     : ... Hierarchical pre-synthesis "DdrCtrl" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "edb_adbg_crc32_8555d14ce55b442ca35794a72d372fc8" begin
+INFO     : ... Hierarchical pre-synthesis "edb_adbg_crc32_8555d14ce55b442ca35794a72d372fc8" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "syncer_8555d14ce55b442ca35794a72d372fc8" begin
+INFO     : ... Hierarchical pre-synthesis "syncer_8555d14ce55b442ca35794a72d372fc8" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "vio_core_8555d14ce55b442ca35794a72d372fc8(INT_WIDTH=389,OUT_WIDTH=0,PROBE_OUT_INIT_VAL=1'b0,UUID=128'b010100011011000000101101110011001111000000101001001001010111001111101100000001101100110110010111100111000011000110010111011)" begin
+INFO     : ... Hierarchical pre-synthesis "vio_core_8555d14ce55b442ca35794a72d372fc8(INT_WIDTH=389,OUT_WIDTH=0,PROBE_OUT_INIT_VAL=1'b0,UUID=128'b010100011011000000101101110011001111000000101001001001010111001111101100000001101100110110010111100111000011000110010111011)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "edb_vio_top_8555d14ce55b442ca35794a72d372fc8_renamed_due_excessive_length_1" begin
+INFO     : ... Hierarchical pre-synthesis "edb_vio_top_8555d14ce55b442ca35794a72d372fc8_renamed_due_excessive_length_1" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "vio_core_8555d14ce55b442ca35794a72d372fc8(INT_WIDTH=132,OUT_WIDTH=0,PROBE_OUT_INIT_VAL=1'b0,UUID=128'b0101001010000111101011100000111111110100101000101001010110000101010101101010011011010100000011011010111011000100101011101000001)" begin
+INFO     : ... Hierarchical pre-synthesis "vio_core_8555d14ce55b442ca35794a72d372fc8(INT_WIDTH=132,OUT_WIDTH=0,PROBE_OUT_INIT_VAL=1'b0,UUID=128'b0101001010000111101011100000111111110100101000101001010110000101010101101010011011010100000011011010111011000100101011101000001)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "edb_vio_top_8555d14ce55b442ca35794a72d372fc8(NUM_PROBE_IN=7,NUM_PROBE_OUT=0,UUID=128'b0101001010000111101011100000111111110100101000101001010110000101010101101010011011010100000011011010111011000100101011101000001,PROBE_IN0_WIDTH=32,PROBE_IN1_WIDTH=32,PROBE_IN2_WIDTH=32,PROBE_IN5_WIDTH=12,PROBE_IN6_WIDTH=22)" begin
+INFO     : ... Hierarchical pre-synthesis "edb_vio_top_8555d14ce55b442ca35794a72d372fc8(NUM_PROBE_IN=7,NUM_PROBE_OUT=0,UUID=128'b0101001010000111101011100000111111110100101000101001010110000101010101101010011011010100000011011010111011000100101011101000001,PROBE_IN0_WIDTH=32,PROBE_IN1_WIDTH=32,PROBE_IN2_WIDTH=32,PROBE_IN5_WIDTH=12,PROBE_IN6_WIDTH=22)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "vio_core_8555d14ce55b442ca35794a72d372fc8(INT_WIDTH=64,OUT_WIDTH=0,PROBE_OUT_INIT_VAL=1'b0,UUID=128'b10011110000111110001011000110001001100001110001101001010011111011000111001101111111100011111111111111000000111011101010010101000)" begin
+INFO     : ... Hierarchical pre-synthesis "vio_core_8555d14ce55b442ca35794a72d372fc8(INT_WIDTH=64,OUT_WIDTH=0,PROBE_OUT_INIT_VAL=1'b0,UUID=128'b10011110000111110001011000110001001100001110001101001010011111011000111001101111111100011111111111111000000111011101010010101000)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "edb_vio_top_8555d14ce55b442ca35794a72d372fc8(NUM_PROBE_IN=2,NUM_PROBE_OUT=0,UUID=128'b10011110000111110001011000110001001100001110001101001010011111011000111001101111111100011111111111111000000111011101010010101000,PROBE_IN0_WIDTH=32,PROBE_IN1_WIDTH=32)" begin
+INFO     : ... Hierarchical pre-synthesis "edb_vio_top_8555d14ce55b442ca35794a72d372fc8(NUM_PROBE_IN=2,NUM_PROBE_OUT=0,UUID=128'b10011110000111110001011000110001001100001110001101001010011111011000111001101111111100011111111111111000000111011101010010101000,PROBE_IN0_WIDTH=32,PROBE_IN1_WIDTH=32)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "vio_core_8555d14ce55b442ca35794a72d372fc8(INT_WIDTH=0,OUT_WIDTH=16,PROBE_OUT_INIT_VAL=16'b0,UUID=128'b11110010001010101101001001110111000001101000111101000000101111001010000010010011011101011011101011101000011101001110010100011101)" begin
+INFO     : ... Hierarchical pre-synthesis "vio_core_8555d14ce55b442ca35794a72d372fc8(INT_WIDTH=0,OUT_WIDTH=16,PROBE_OUT_INIT_VAL=16'b0,UUID=128'b11110010001010101101001001110111000001101000111101000000101111001010000010010011011101011011101011101000011101001110010100011101)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "edb_vio_top_8555d14ce55b442ca35794a72d372fc8(NUM_PROBE_IN=0,UUID=128'b11110010001010101101001001110111000001101000111101000000101111001010000010010011011101011011101011101000011101001110010100011101,PROBE_OUT0_WIDTH=16,PROBE_OUT0_INIT_VAL=256'b0)" begin
+INFO     : ... Hierarchical pre-synthesis "edb_vio_top_8555d14ce55b442ca35794a72d372fc8(NUM_PROBE_IN=0,UUID=128'b11110010001010101101001001110111000001101000111101000000101111001010000010010011011101011011101011101000011101001110010100011101,PROBE_OUT0_WIDTH=16,PROBE_OUT0_INIT_VAL=256'b0)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "vio_core_8555d14ce55b442ca35794a72d372fc8(INT_WIDTH=368,OUT_WIDTH=18,PROBE_OUT_INIT_VAL=18'b0,UUID=128'b0110111011101000011101010101110001011001001001001000011100001011001011110100110010100011101001111110001100001101100001001100)" begin
+INFO     : ... Hierarchical pre-synthesis "vio_core_8555d14ce55b442ca35794a72d372fc8(INT_WIDTH=368,OUT_WIDTH=18,PROBE_OUT_INIT_VAL=18'b0,UUID=128'b0110111011101000011101010101110001011001001001001000011100001011001011110100110010100011101001111110001100001101100001001100)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "edb_vio_top_8555d14ce55b442ca35794a72d372fc8_renamed_due_excessive_length_2" begin
+INFO     : ... Hierarchical pre-synthesis "edb_vio_top_8555d14ce55b442ca35794a72d372fc8_renamed_due_excessive_length_2" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "vio_core_8555d14ce55b442ca35794a72d372fc8(INT_WIDTH=323,OUT_WIDTH=3,PROBE_OUT_INIT_VAL=3'b0,UUID=128'b11001100101011001110101110101110001100011001101001000110101100101000011100100110100010110000010101111100010000001100010110110111)" begin
+INFO     : ... Hierarchical pre-synthesis "vio_core_8555d14ce55b442ca35794a72d372fc8(INT_WIDTH=323,OUT_WIDTH=3,PROBE_OUT_INIT_VAL=3'b0,UUID=128'b11001100101011001110101110101110001100011001101001000110101100101000011100100110100010110000010101111100010000001100010110110111)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "edb_vio_top_8555d14ce55b442ca35794a72d372fc8(NUM_PROBE_IN=3,NUM_PROBE_OUT=2,UUID=128'b11001100101011001110101110101110001100011001101001000110101100101000011100100110100010110000010101111100010000001100010110110111,PROBE_IN1_WIDTH=320,PROBE_IN2_WIDTH=2,PROBE_OUT1_WIDTH=2,PROBE_OUT0_INIT_VAL=256'b0,PROBE_OUT1_INIT_VAL=256'b0)" begin
+INFO     : ... Hierarchical pre-synthesis "edb_vio_top_8555d14ce55b442ca35794a72d372fc8(NUM_PROBE_IN=3,NUM_PROBE_OUT=2,UUID=128'b11001100101011001110101110101110001100011001101001000110101100101000011100100110100010110000010101111100010000001100010110110111,PROBE_IN1_WIDTH=320,PROBE_IN2_WIDTH=2,PROBE_OUT1_WIDTH=2,PROBE_OUT0_INIT_VAL=256'b0,PROBE_OUT1_INIT_VAL=256'b0)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "vio_core_8555d14ce55b442ca35794a72d372fc8(INT_WIDTH=358,OUT_WIDTH=37,PROBE_OUT_INIT_VAL=37'b1000110011100000100000000000110011000,UUID=128'b11111101111001001101100110001110111010100010010001001010110001011001100001111000001010111100111100001010001010100000111000010011)" begin
+INFO     : ... Hierarchical pre-synthesis "vio_core_8555d14ce55b442ca35794a72d372fc8(INT_WIDTH=358,OUT_WIDTH=37,PROBE_OUT_INIT_VAL=37'b1000110011100000100000000000110011000,UUID=128'b11111101111001001101100110001110111010100010010001001010110001011001100001111000001010111100111100001010001010100000111000010011)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "edb_vio_top_8555d14ce55b442ca35794a72d372fc8(NUM_PROBE_IN=3,UUID=128'b11111101111001001101100110001110111010100010010001001010110001011001100001111000001010111100111100001010001010100000111000010011,PROBE_IN0_WIDTH=37,PROBE_IN2_WIDTH=320,PROBE_OUT0_WIDTH=37,PROBE_OUT0_INIT_VAL=256'b01000110011100000100000000000110011000)" begin
+INFO     : ... Hierarchical pre-synthesis "edb_vio_top_8555d14ce55b442ca35794a72d372fc8(NUM_PROBE_IN=3,UUID=128'b11111101111001001101100110001110111010100010010001001010110001011001100001111000001010111100111100001010001010100000111000010011,PROBE_IN0_WIDTH=37,PROBE_IN2_WIDTH=320,PROBE_OUT0_WIDTH=37,PROBE_OUT0_INIT_VAL=256'b01000110011100000100000000000110011000)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "vio_core_8555d14ce55b442ca35794a72d372fc8(INT_WIDTH=224,OUT_WIDTH=0,PROBE_OUT_INIT_VAL=1'b0,UUID=128'b01101100010000010101101100101111111110011111000001000111001100011000001111100001001001110110100100100000011101110110100101000000)" begin
+INFO     : ... Hierarchical pre-synthesis "vio_core_8555d14ce55b442ca35794a72d372fc8(INT_WIDTH=224,OUT_WIDTH=0,PROBE_OUT_INIT_VAL=1'b0,UUID=128'b01101100010000010101101100101111111110011111000001000111001100011000001111100001001001110110100100100000011101110110100101000000)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "edb_vio_top_8555d14ce55b442ca35794a72d372fc8(NUM_PROBE_OUT=0,UUID=128'b01101100010000010101101100101111111110011111000001000111001100011000001111100001001001110110100100100000011101110110100101000000,PROBE_IN0_WIDTH=224)" begin
+INFO     : ... Hierarchical pre-synthesis "edb_vio_top_8555d14ce55b442ca35794a72d372fc8(NUM_PROBE_OUT=0,UUID=128'b01101100010000010101101100101111111110011111000001000111001100011000001111100001001001110110100100100000011101110110100101000000,PROBE_IN0_WIDTH=224)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "vio_core_8555d14ce55b442ca35794a72d372fc8(INT_WIDTH=320,OUT_WIDTH=0,PROBE_OUT_INIT_VAL=1'b0,UUID=128'b10011110010000110111011000001001100101001111101101000111110010101010011111011011001110000000111101111011100111001101111100011001)" begin
+INFO     : ... Hierarchical pre-synthesis "vio_core_8555d14ce55b442ca35794a72d372fc8(INT_WIDTH=320,OUT_WIDTH=0,PROBE_OUT_INIT_VAL=1'b0,UUID=128'b10011110010000110111011000001001100101001111101101000111110010101010011111011011001110000000111101111011100111001101111100011001)" end (Real time : 1s)
+INFO     : ... Hierarchical pre-synthesis "edb_vio_top_8555d14ce55b442ca35794a72d372fc8(NUM_PROBE_OUT=0,UUID=128'b10011110010000110111011000001001100101001111101101000111110010101010011111011011001110000000111101111011100111001101111100011001,PROBE_IN0_WIDTH=320)" begin
+INFO     : ... Hierarchical pre-synthesis "edb_vio_top_8555d14ce55b442ca35794a72d372fc8(NUM_PROBE_OUT=0,UUID=128'b10011110010000110111011000001001100101001111101101000111110010101010011111011011001110000000111101111011100111001101111100011001,PROBE_IN0_WIDTH=320)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "debug_hub_8555d14ce55b442ca35794a72d372fc8" begin
+INFO     : ... Hierarchical pre-synthesis "debug_hub_8555d14ce55b442ca35794a72d372fc8" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "edge_debug" begin
+INFO     : ... Hierarchical pre-synthesis "edge_debug" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "v8_sevenseg_status" begin
+INFO     : ... Hierarchical pre-synthesis "v8_sevenseg_status" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "edge_camera_v10_top" begin
+WARNING  : Mapping into logic memory block 'screen/bank_row' (80 bits) (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_hdmi_display.v:34) because read port is not synchronous. [EFX-0657]
+WARNING  : Mapping into logic memory block 'screen/shape_detector/parent' (2048 bits) (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_detector.v:25) because read port is not synchronous. [EFX-0657]
+WARNING  : Mapping into logic memory block 'screen/shape_tracker/pending_position' (228 bits) (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\video\v8_shape_tracker.v:13) because it has async writer. [EFX-0657]
+WARNING  : Mapping into logic memory block 'frames/record_words' (2048 bits) (E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\memory\v8_frame_store.v:107) because read port is not synchronous. [EFX-0657]
+INFO     : ... Clock Enable Synthesis Performed on 9892 flops.
+INFO     : Cannot infer shift registers from 'memory_controller/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/r_rd_fifo_wr_en_p[0]' (E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv:1441) to 'memory_controller/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/r_rd_fifo_wr_en_p[18]' (E:\0Efinity_prj\question4_ti60_sc2210_version10\ip\DdrCtrl\DdrCtrl.sv:1441). Shift registers with both dynamic address and reset not supported. [EFX-0688]
+INFO     : ... Hierarchical pre-synthesis "edge_camera_v10_top" end (Real time : 10s)
+INFO     : ... Flat optimizations begin
+INFO     : ... Flat optimizations end (Real time : 0s)
+INFO     : ... Flat synthesis begin
+INFO     : ... Flat synthesis end (Real time : 0s)
+INFO     : ... Flat optimizations begin
+INFO     : ... Flat optimizations end (Real time : 0s)
+INFO     : ... Check and break combinational loops begin
+INFO     : ... Check and break combinational loops end (Real time : 0s)
+INFO     : ... Setup for logic synthesis begin
+INFO     : ... Setup for logic synthesis end (Real time : 0s)
+INFO     : ... LUT mapping begin
+INFO     : ... LS, strategy: 3, nd: 39165, ed: 128261, lv: 18, pw: 71432.88
+INFO     : ... LUT mapping end (Real time : 61s)
+INFO     : ... Post-synthesis Verific netlist creation begin
+INFO     : ... Post-synthesis Verific netlist creation end (Real time : 1s)
+INFO     : ***** Beginning VDB Netlist Checker ... *****
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\board\edge_camera_v10_top.v(9): Input/inout port clk_24m is unconnected. Place and route may remove this unconnected port. [VDB-8003]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\board\edge_camera_v10_top.v(51): Input/inout port csi_ctl0_i is unconnected. Place and route may remove this unconnected port. [VDB-8003]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\board\edge_camera_v10_top.v(54): Input/inout port csi_ctl1_i is unconnected. Place and route may remove this unconnected port. [VDB-8003]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\board\edge_camera_v10_top.v(75): Input/inout port csi_rxd1_lp_n_i is unconnected. Place and route may remove this unconnected port. [VDB-8003]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\board\edge_camera_v10_top.v(76): Input/inout port csi_rxd1_lp_p_i is unconnected. Place and route may remove this unconnected port. [VDB-8003]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\board\edge_camera_v10_top.v(81): Input/inout port csi_rxd2_lp_p_i is unconnected. Place and route may remove this unconnected port. [VDB-8003]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\board\edge_camera_v10_top.v(82): Input/inout port csi_rxd2_lp_n_i is unconnected. Place and route may remove this unconnected port. [VDB-8003]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\board\edge_camera_v10_top.v(87): Input/inout port csi_rxd3_lp_p_i is unconnected. Place and route may remove this unconnected port. [VDB-8003]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\board\edge_camera_v10_top.v(88): Input/inout port csi_rxd3_lp_n_i is unconnected. Place and route may remove this unconnected port. [VDB-8003]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\board\edge_camera_v10_top.v(103): Input/inout port clk_video_ref is unconnected. Place and route may remove this unconnected port. [VDB-8003]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\board\edge_camera_v10_top.v(104): Input/inout port clk_video_fb is unconnected. Place and route may remove this unconnected port. [VDB-8003]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\board\edge_camera_v10_top.v(105): Input/inout port clk_pixel_10x is unconnected. Place and route may remove this unconnected port. [VDB-8003]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\board\edge_camera_v10_top.v(117): Input/inout port jtag_inst1_DRCK is unconnected. Place and route may remove this unconnected port. [VDB-8003]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\board\edge_camera_v10_top.v(119): Input/inout port jtag_inst1_RUNTEST is unconnected. Place and route may remove this unconnected port. [VDB-8003]
+WARNING  : E:\0Efinity_prj\question4_ti60_sc2210_version10\rtl\board\edge_camera_v10_top.v(124): Input/inout port jtag_inst1_TMS is unconnected. Place and route may remove this unconnected port. [VDB-8003]
+WARNING  : Found 15 warnings in the post-synthesis netlist.
+INFO     : VDB Netlist Checker took 0.07861 seconds [FlowMsg::StageDuration]
+INFO     :     VDB Netlist Checker took 0.109375 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : VDB Netlist Checker virtual memory usage: begin = 510.472 MB, end = 510.548 MB, delta = 0.076 MB [FlowMsg::VMUsage]
+INFO     :     VDB Netlist Checker peak virtual memory usage = 555.612 MB [FlowMsg::VMUsage::Peak]
+INFO     : VDB Netlist Checker resident set memory usage: begin = 531.524 MB, end = 531.672 MB, delta = 0.148 MB [FlowMsg::RSSUsage]
+INFO     :     VDB Netlist Checker peak resident set memory usage = 569.872 MB [FlowMsg::RSSUsage::Peak]
+INFO     : ***** Ending VDB Netlist Checker ... *****
+INFO     : Resource Summary 
+INFO     : ======================================= 
+INFO     : EFX_ADD                 : 	5734
+INFO     : EFX_LUT4                : 	38891
+INFO     : EFX_DSP48               : 	17
+INFO     : EFX_FF                  : 	27020
+INFO     : EFX_SRL8                : 	637
+INFO     : EFX_RAM10               : 	255
+INFO     : ======================================= 
+INFO     : ... Post-Map Verilog Writer begin
+INFO     : Writing netlist 'edge_camera_v10_top' to Verilog file 'outflow\edge_camera_v10.map.v' [VDB-1030]
+INFO     : ... Post-Map Verilog Writer end (Real time : 1s)
+INFO     : The entire flow of EFX_MAP took 91.3949093 seconds [FlowMsg::StageDuration]
+INFO     :     The entire flow of EFX_MAP took 125.515625 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : The entire flow of EFX_MAP virtual memory usage: begin = 19.116 MB, end = 569.176 MB, delta = 550.06 MB [FlowMsg::VMUsage]
+INFO     :     The entire flow of EFX_MAP peak virtual memory usage = 569.176 MB [FlowMsg::VMUsage::Peak]
+INFO     : The entire flow of EFX_MAP resident set memory usage: begin = 20.424 MB, end = 587.584 MB, delta = 567.16 MB [FlowMsg::RSSUsage]
+INFO     :     The entire flow of EFX_MAP peak resident set memory usage = 587.584 MB [FlowMsg::RSSUsage::Peak]
+Stage completed: map
+Running: efx_run_pt_unified.py edge_camera_v10 Titanium Ti60F225 --output_dir outflow --timing_model I3 --project_xml edge_camera_v10.xml
+Running: D:\Efinity\python311\bin\python.exe D:\Efinity\scripts\efx_run_pt_unified.py edge_camera_v10 Titanium Ti60F225 --output_dir outflow --timing_model I3 --project_xml edge_camera_v10.xml
+Reuse. Try to create an existing PLL output clock : sys_pll_CLKOUT0
+Reuse. Try to create an existing PLL output clock : ddr_pll_CLKOUT0
+Reuse. Try to create an existing PLL output clock : video_pll_CLKOUT0
+Load design file edge_camera_v10.peri.xml
+Writing out summary report file
+Writing out pinout file
+Writing out interface config file
+Writing out timing related file
+Writing out verilog template file
+Writing out option register file
+Writing out routing trace
+Writing out boundary scan description file
+Writing out LPF
+Unified Timing supported
+Periphery PBN generated at outflow\edge_camera_v10.peri.pbn
+Periphery fixed delay file generated at outflow\edge_camera_v10.peri.qdelay
+Periphery csi file generated at outflow\edge_camera_v10.peri.csi
+Periphery cdo file generated at outflow\edge_camera_v10.peri.cdo
+Stage completed: interface
+Running: efx_run_pnr.py edge_camera_v10 --prj E:\0Efinity_prj\question4_ti60_sc2210_version10\edge_camera_v10.xml --family Titanium --device Ti60F225 --timing_model I3 --output_dir outflow --work_dir work_pnr --opt sdc_file=edge_camera_v10.sdc,outflow/edge_camera_v10.pt.sdc,cdc.sdc
+Creating E:\0Efinity_prj\question4_ti60_sc2210_version10\work_pnr
+Running: D:\Efinity\bin\efx_pnr.exe --circuit edge_camera_v10 --family Titanium --device Ti60F225 --operating_conditions I3 --vdb_file outflow\edge_camera_v10.vdb --use_vdb_file on --prj E:\0Efinity_prj\question4_ti60_sc2210_version10\edge_camera_v10.xml --output_dir outflow --work_dir work_pnr --place_file outflow\edge_camera_v10.place --route_file outflow\edge_camera_v10.route --sync_file outflow\edge_camera_v10.interface.csv --sdc_filelist=work_pnr/sdc_file_list --generate_prevpr_netlist off
+INFO     : Reading project database "E:\0Efinity_prj\question4_ti60_sc2210_version10\edge_camera_v10.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 32 [FlowMsg::MaxThreads]
+           
+           Elitestek FPGA Placement and Routing.
+           Version: 2026.1.132 
+           Compiled: May 29 2026.
+           
+           Copyright (C) 2013 - 2026 Efinix, Inc. All rights reserved.
+
+           
+           The Tool Is Based on VPR of University of Toronto,
+           a free open source code under MIT license.
+           
+WARNING  : Found 15 warnings in the post-synthesis netlist.
+INFO     : Reading core interface constraints file "outflow\edge_camera_v10.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
+INFO     : Successfully read core interface constraints file "outflow\edge_camera_v10.interface.csv" [DBMsg::CoreInterfaceConstraintsFileLoadSuccess]
+INFO     : Reading core interface constraints file "outflow\edge_camera_v10.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
+INFO     : Successfully read core interface constraints file "outflow\edge_camera_v10.interface.csv" [DBMsg::CoreInterfaceConstraintsFileLoadSuccess]
+WARNING  : Clock source "jtag_inst1_TCK" does not use a dedicated clock pad, extra clock insertion delay will been added
+INFO     : Counting 1 clocks that are not assigned to clock resources as global clocks.
+INFO     : XLR count after merging: 60712
+INFO     : Netlist has 38893 luts, 27020 ffs and 5734 adders [PackerMsg::NetlistStatistics]
+INFO     : Packed into 60712 clusters with 2.5778265(1.0162241) inputs(outputs) per cluster for a total of 156505(61697) inputs(outputs) [PackerMsg::ClusterPackingStatistics]
+INFO     : Packed into 60712 xlrs with 2.5778265(1.0162241) inputs(outputs) per xlr for a total of 156505(61697) inputs(outputs) [PackerMsg::XLRPackingStatistics]
+INFO     : Packed 0 fracturable DSPs into 0 clusters [PackerMsg::DSPPackingStatistics]
+INFO     : Packing took 3.2588917 seconds [FlowMsg::StageDuration]
+INFO     :     Packing took 9.375 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Packing virtual memory usage: begin = 59.64 MB, end = 441.164 MB, delta = 381.524 MB [FlowMsg::VMUsage]
+INFO     :     Packing peak virtual memory usage = 441.196 MB [FlowMsg::VMUsage::Peak]
+INFO     : Packing resident set memory usage: begin = 64.492 MB, end = 447.168 MB, delta = 382.676 MB [FlowMsg::RSSUsage]
+INFO     :     Packing peak resident set memory usage = 447.184 MB [FlowMsg::RSSUsage::Peak]
+INFO     : Process the SDC file 'edge_camera_v10.sdc' ...
+INFO     : [SDC E:/0Efinity_prj/question4_ti60_sc2210_version10/edge_camera_v10.sdc:6] create_clock: No pin(s)/port(s)/net(s) specified, only virtual clock 'csi_dphy_byte' will be created. If you don't want this, please specify pin(s)/port(s)/net(s) to the command
+WARNING  : No ports matched 'jtag_inst1_DRCK'
+WARNING  : [SDC E:/0Efinity_prj/question4_ti60_sc2210_version10/edge_camera_v10.sdc:9] No valid pin(s) found for clock
+WARNING  : [SDC E:/0Efinity_prj/question4_ti60_sc2210_version10/edge_camera_v10.sdc:9] Unable to run 'create_clock' constraint due to warnings found
+INFO     : Process the SDC file 'outflow/edge_camera_v10.pt.sdc' ...
+WARNING  : No ports matched 'jtag_inst1_DRCK'
+WARNING  : [SDC E:/0Efinity_prj/question4_ti60_sc2210_version10/outflow/edge_camera_v10.pt.sdc:58] set_input_delay: No valid input port(s) found
+WARNING  : [SDC E:/0Efinity_prj/question4_ti60_sc2210_version10/outflow/edge_camera_v10.pt.sdc:58] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst1_DRCK'
+WARNING  : [SDC E:/0Efinity_prj/question4_ti60_sc2210_version10/outflow/edge_camera_v10.pt.sdc:59] set_input_delay: No valid input port(s) found
+WARNING  : [SDC E:/0Efinity_prj/question4_ti60_sc2210_version10/outflow/edge_camera_v10.pt.sdc:59] Unable to run 'set_input_delay' constraint due to warnings found
+INFO     : Process the SDC file 'cdc.sdc' ...
+WARNING  : [SDC E:/0Efinity_prj/question4_ti60_sc2210_version10/cdc.sdc:8] No clocks matched 'jtag_inst1_DRCK'
+INFO     : Reading core interface constraints file "outflow\edge_camera_v10.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
+INFO     : Successfully read core interface constraints file "outflow\edge_camera_v10.interface.csv" [DBMsg::CoreInterfaceConstraintsFileLoadSuccess]
+INFO     : Counting 1 clocks that are not assigned to clock resources as global clocks.
+WARNING  : Synchronizer chain starting at cell rx_reset/sync[0]~FF is driven by a non-sequential source VCC:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell ui_reset/sync[0]~FF is driven by a non-sequential source VCC:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell keypad/scanner/row_meta[1]~FF is driven by a non-sequential source key_row[1]:inpad [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell keys/a/sync[0]~FF is driven by a non-sequential source key_plus_i:inpad [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell keypad/scanner/row_meta[3]~FF is driven by a non-sequential source key_row[3]:inpad [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell keypad/scanner/row_meta[0]~FF is driven by a non-sequential source key_row[0]:inpad [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell capture_start/sync[0]~FF is driven by a non-sequential source VCC:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell i2c/scl_sync[0]~FF is driven by a non-sequential source csi_scl_i:inpad [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell keypad/scanner/row_meta[2]~FF is driven by a non-sequential source key_row[2]:inpad [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell keys/b/sync[0]~FF is driven by a non-sequential source key_minus_i:inpad [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell pixel_reset/sync[0]~FF is driven by a non-sequential source VCC:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell i2c/sda_sync[0]~FF is driven by a non-sequential source csi_sda_i:inpad [FlowMsg::SyncHeadDrivenByNonSeq]
+INFO     : Starting Global Placer with 32 threads ...
+            ----------     -------  --------------     -------
+             Iteration       WHPWL Worst Slack (ps) Convergence
+            ----------     -------  --------------     -------
+INFO     :           1    30965428             188         1.3%
+INFO     :           2    25477496             188         1.8%
+INFO     :           3    16642158             188         3.5%
+INFO     :           4    12346415             -79         5.9%
+INFO     :           5     8360414             -90        12.1%
+INFO     :           6     5873126            -122        24.3%
+INFO     :           7     4716516            -750        37.0%
+INFO     :           8     4273483           -1778        46.0%
+INFO     :           9     4027819           -1049        52.4%
+INFO     :          10     3880218           -1399        57.2%
+INFO     :          11     3807537            -997        59.5%
+INFO     :          12     3771722            -992        61.0%
+INFO     :          13     3728232           -1003        62.6%
+INFO     :          14     3675948            -905        63.4%
+INFO     :          15     3644439           -1232        64.1%
+INFO     :          16     3605461           -1028        65.7%
+INFO     :          17     3552914           -1059        67.5%
+INFO     :          18     3501184            -893        69.4%
+INFO     :          19     3461476           -1194        71.3%
+INFO     :          20     3449279           -1701        73.0%
+INFO     :          21     3413293           -1221        74.8%
+INFO     :          22     3414444           -1687        75.7%
+INFO     :          23     3373703           -1373        78.4%
+INFO     :          24     3342361           -1722        79.3%
+INFO     :          25     3308861           -1652        80.5%
+INFO     :          26     3299622           -1755        81.5%
+INFO     :          27     3281903           -1460        83.0%
+INFO     :          28     3261368           -1596        84.2%
+INFO     :          29     3261583           -1591        85.3%
+INFO     :          30     3268574           -1897        86.3%
+INFO     :          31     3266971           -1700        87.3%
+INFO     :          32     3267438           -1610        88.6%
+INFO     :          33     3278380           -1676        89.6%
+INFO     :          34     3287581           -1552        90.5%
+INFO     :          35     3299511           -1713        91.8%
+INFO     :          36     3310400           -1955        92.5%
+INFO     :          37     3319377           -2192        93.1%
+INFO     :          38     3337822           -1928        93.4%
+INFO     :          39     3342627           -2077        94.2%
+INFO     :          40     3360868           -1961        94.4%
+INFO     :          41     3249228           -2029        94.4%
+INFO     :          42     3261454           -1989        95.8%
+INFO     :          43     3276841           -2019        96.7%
+INFO     :          44     3288640           -2130        97.1%
+INFO     :          45     3300273           -2249        97.3%
+INFO     :          46     3312402           -1818        97.6%
+INFO     :          47     3326102           -2173        98.0%
+INFO     : GP: best_placement: wpd: 7213.43
+INFO     : Starting Annealer
+            ----------     -------  --------------     -------
+             Iteration       WHPWL  Delay Max (ps)     R Limit
+            ----------     -------  --------------     -------
+INFO     :           0     2255928            8773        30.0
+INFO     :           1     3188596            8831        28.3
+INFO     :           2     2895661            7763        26.0
+INFO     :           3     2636147            7004        23.7
+INFO     :           4     2486522            6762        21.5
+INFO     :           5     2375212            6762        19.5
+INFO     :           6     2298337            6772        17.6
+INFO     :           7     2230083            6817        15.9
+INFO     :           8     2173214            6760        14.3
+INFO     :           9     2134605            6747        12.9
+INFO     :          10     2089344            6613        11.6
+INFO     :          11     2051713            2085        10.5
+INFO     :          12     2014248            2085         9.4
+INFO     :          13     1982541            2095         8.5
+INFO     :          14     1957375            2095         7.6
+INFO     :          15     1934458            2095         6.8
+INFO     :          16     1911006            2095         6.2
+INFO     :          17     1891481            2095         5.5
+INFO     :          18     1878408            2095         5.0
+INFO     :          19     1861000            2095         4.5
+INFO     :          20     1847453            2095         4.0
+INFO     :          21     1837324            2095         3.6
+INFO     :          22     1829473            2095         3.2
+INFO     :          23     1820312            2095         2.9
+INFO     :          24     1812147            2095         2.6
+INFO     :          25     1805401            2095         2.4
+INFO     :          26     1800269            2095         2.1
+INFO     :          27     1794604            2095         1.9
+INFO     :          28     1792144            2095         1.7
+INFO     :          29     1789487            2095         1.6
+INFO     :          30     1786320            2095         1.4
+INFO     :          31     1782874            2095         1.3
+INFO     :          32     1779997            2095         1.1
+INFO     :          33     1777610            2095         1.0
+INFO     :          34     1774995            2095         1.0
+INFO     :          35     1773011            6238         1.0
+INFO     : DP: best_placement: wpd: 135.014
+INFO     : Placement successful: 60984 cells are placed
+INFO     : Peak congestion smeared over 4x4 of the chip is 2.55685 at 62,154
+INFO     : Peak congestion smeared over 1/16 of the chip is 1.74915 at 63,160
+INFO     : Peak congestion smeared over 1/4 of the chip is 1.13304 at 122,236
+INFO     : Congestion-weighted HPWL per net: 37.9991
+INFO     : Post-placement cluster-level checks is successful
+INFO     : Post-placement primitive-level checks is successful
+INFO     : Placement took 80.1669201 seconds [FlowMsg::StageDuration]
+INFO     :     Placement took 863.78125 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Placement virtual memory usage: begin = 115.492 MB, end = 341.912 MB, delta = 226.42 MB [FlowMsg::VMUsage]
+INFO     :     Placement peak virtual memory usage = 556.048 MB [FlowMsg::VMUsage::Peak]
+INFO     : Placement resident set memory usage: begin = 129.42 MB, end = 360.872 MB, delta = 231.452 MB [FlowMsg::RSSUsage]
+INFO     :     Placement peak resident set memory usage = 575.476 MB [FlowMsg::RSSUsage::Peak]
+INFO     : Process the SDC file 'edge_camera_v10.sdc' ...
+INFO     : [SDC E:/0Efinity_prj/question4_ti60_sc2210_version10/edge_camera_v10.sdc:6] create_clock: No pin(s)/port(s)/net(s) specified, only virtual clock 'csi_dphy_byte' will be created. If you don't want this, please specify pin(s)/port(s)/net(s) to the command
+WARNING  : No ports matched 'jtag_inst1_DRCK'
+WARNING  : [SDC E:/0Efinity_prj/question4_ti60_sc2210_version10/edge_camera_v10.sdc:9] No valid pin(s) found for clock
+WARNING  : [SDC E:/0Efinity_prj/question4_ti60_sc2210_version10/edge_camera_v10.sdc:9] Unable to run 'create_clock' constraint due to warnings found
+INFO     : Process the SDC file 'outflow/edge_camera_v10.pt.sdc' ...
+WARNING  : No ports matched 'jtag_inst1_DRCK'
+WARNING  : [SDC E:/0Efinity_prj/question4_ti60_sc2210_version10/outflow/edge_camera_v10.pt.sdc:58] set_input_delay: No valid input port(s) found
+WARNING  : [SDC E:/0Efinity_prj/question4_ti60_sc2210_version10/outflow/edge_camera_v10.pt.sdc:58] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst1_DRCK'
+WARNING  : [SDC E:/0Efinity_prj/question4_ti60_sc2210_version10/outflow/edge_camera_v10.pt.sdc:59] set_input_delay: No valid input port(s) found
+WARNING  : [SDC E:/0Efinity_prj/question4_ti60_sc2210_version10/outflow/edge_camera_v10.pt.sdc:59] Unable to run 'set_input_delay' constraint due to warnings found
+INFO     : Process the SDC file 'cdc.sdc' ...
+WARNING  : [SDC E:/0Efinity_prj/question4_ti60_sc2210_version10/cdc.sdc:8] No clocks matched 'jtag_inst1_DRCK'
+Maximum possible analyzed clocks frequency
+  Clock Name   Period (ns)  Frequency (MHz)     Edge
+csi_rxc_i          4.374       228.624         (R-R)
+jtag_inst1_TCK    15.496        64.533         (F-R)
+clk_sys            8.549       116.973         (R-R)
+tdqss_clk          2.018       495.540         (R-R)
+core_clk           4.406       226.963         (R-R)
+tac_clk            2.221       450.248         (R-R)
+twd_clk            2.143       466.636         (R-R)
+clk_pixel_2x       6.161       162.311         (R-R)
+
+Geomean max period: 4.440
+
+Setup (Max) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+ csi_rxc_i        csi_rxc_i             6.000            1.626           (R-R)
+ csi_dphy_byte    csi_rxc_i             6.000            6.956           (R-R)
+ jtag_inst1_TCK   jtag_inst1_TCK      100.000           88.965           (R-R)
+ jtag_inst1_TCK   jtag_inst1_TCK       50.000           42.252           (F-R)
+ clk_sys          clk_sys              10.417            1.868           (R-R)
+ tdqss_clk        tdqss_clk             2.604            0.586           (R-R)
+ tdqss_clk        core_clk              2.604            2.120           (R-R)
+ core_clk         tdqss_clk             2.604            1.517           (R-R)
+ core_clk         core_clk              5.208            0.802           (R-R)
+ core_clk         tac_clk               2.604            2.091           (R-R)
+ core_clk         twd_clk               0.651            0.935           (R-R)
+ tac_clk          core_clk              2.604            2.010           (R-R)
+ tac_clk          tac_clk               2.604            0.383           (R-R)
+ twd_clk          core_clk              1.953            1.447           (R-R)
+ twd_clk          twd_clk               2.604            0.461           (R-R)
+ clk_pixel_2x     clk_pixel_2x          6.734            0.573           (R-R)
+
+Hold (Min) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+ csi_rxc_i        csi_rxc_i             0.000            0.161           (R-R)
+ csi_dphy_byte    csi_rxc_i             0.000           -2.286           (R-R)
+ jtag_inst1_TCK   jtag_inst1_TCK        0.000            0.179           (R-R)
+ jtag_inst1_TCK   jtag_inst1_TCK      -50.000           48.255           (F-R)
+ clk_sys          clk_sys               0.000           -0.539           (R-R)
+ tdqss_clk        tdqss_clk             0.000           -0.767           (R-R)
+ tdqss_clk        core_clk              0.000            0.195           (R-R)
+ core_clk         tdqss_clk             0.000            0.195           (R-R)
+ core_clk         core_clk              0.000           -0.761           (R-R)
+ core_clk         tac_clk               0.000            0.195           (R-R)
+ core_clk         twd_clk              -1.953            1.374           (R-R)
+ tac_clk          core_clk              0.000            0.195           (R-R)
+ tac_clk          tac_clk               0.000           -0.814           (R-R)
+ twd_clk          core_clk             -0.651            0.037           (R-R)
+ twd_clk          twd_clk               0.000           -0.596           (R-R)
+ clk_pixel_2x     clk_pixel_2x          0.000           -0.805           (R-R)
+
+WARNING  : Clock domain between csi_dphy_byte (rising) and csi_rxc_i (rising) may not meet (slack: -2.286 ns) the hold (min) timing requirement
+WARNING  : Clock domain between clk_sys (rising) and clk_sys (rising) may not meet (slack: -0.539 ns) the hold (min) timing requirement
+WARNING  : Clock domain between tdqss_clk (rising) and tdqss_clk (rising) may not meet (slack: -0.767 ns) the hold (min) timing requirement
+WARNING  : Clock domain between core_clk (rising) and core_clk (rising) may not meet (slack: -0.761 ns) the hold (min) timing requirement
+WARNING  : Clock domain between tac_clk (rising) and tac_clk (rising) may not meet (slack: -0.814 ns) the hold (min) timing requirement
+WARNING  : Clock domain between twd_clk (rising) and twd_clk (rising) may not meet (slack: -0.596 ns) the hold (min) timing requirement
+WARNING  : Clock domain between clk_pixel_2x (rising) and clk_pixel_2x (rising) may not meet (slack: -0.805 ns) the hold (min) timing requirement
+INFO     : Write Timing Report to "outflow/edge_camera_v10.place.timing.rpt" ...
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Router Setup
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : High utilization design detected; tuning for routability.
+INFO     : [Setup Parallel Routing Scheduler]
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Route Circuit with 32 threads
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Beneficial skew enabled! Optimizing clock skews ... 
+INFO     : Non-legalized beneficial skew improved geomean CPD by 0.56% (from 4094ps to 4071ps)
+INFO     : CSS improved CPD of clock csi_rxc_i by 0.00% (from 4466ps to 4466ps)
+INFO     : CSS improved CPD of clock jtag_inst1_TCK by 0.00% (from 7658ps to 7658ps)
+INFO     : CSS improved CPD of clock clk_sys by 0.00% (from 8351ps to 8351ps)
+INFO     : CSS improved CPD of clock tdqss_clk by 0.00% (from 2081ps to 2081ps)
+INFO     : CSS improved CPD of clock core_clk by 0.00% (from 4378ps to 4378ps)
+INFO     : CSS improved CPD of clock tac_clk by 0.00% (from 2232ps to 2232ps)
+INFO     : CSS improved CPD of clock twd_clk by 0.00% (from 2109ps to 2109ps)
+INFO     : CSS improved CPD of clock clk_pixel_2x by 0.50% (from 6445ps to 6413ps)
+INFO     : Discretized beneficial skew improved geomean CPD by 0.07% (from 4094ps to 4091ps in 7 iterations and 1.1 sec)
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Overridding delay budgets for 538 synchronizer-related pins
+INFO     : Iter  1: overlap=179672  heapops=19530111   (0%) cpd=453   frr=1.00  msec=5840
+INFO     : [Setup Delay Budgets | 1030.7 ms]
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Hold Fixing
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Total min wire delay:  20025978
+INFO     : Hold fix wire delay:      36493
+INFO     : Hold fix delay ratio:     0.18%
+INFO     : Pins requiring hold fix:  0.03%
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Iter  2: overlap=109218  heapops=16237861   (15%) cpd=453   frr=1.00  msec=3158
+INFO     : Iter  3: overlap=87273   heapops=16271775   (20%) cpd=453   frr=1.00  msec=2879
+INFO     : Iter  4: overlap=70467   heapops=16389132   (26%) cpd=453   frr=1.00  msec=2886
+INFO     : Iter  5: overlap=56136   heapops=16471843   (33%) cpd=453   frr=1.00  msec=2960
+INFO     : Iter  6: overlap=44498   heapops=16529564   (39%) cpd=453   frr=1.00  msec=2934
+INFO     : Iter  7: overlap=34464   heapops=16204664   (46%) cpd=453   frr=1.00  msec=2913
+INFO     : Iter  8: overlap=27821   heapops=16186718   (52%) cpd=453   frr=1.00  msec=2983
+INFO     : Iter  9: overlap=21712   heapops=15843557   (59%) cpd=453   frr=1.00  msec=3055
+INFO     : Iter 10: overlap=17046   heapops=15367104   (65%) cpd=453   frr=1.00  msec=2965
+INFO     : Iter 11: overlap=13211   heapops=15639416   (70%) cpd=453   frr=1.00  msec=3285
+INFO     : Iter 12: overlap=10266   heapops=15494732   (74%) cpd=6537  frr=14.43  msec=3688
+INFO     : [Rebuild Parallel Routing Scheduler]
+INFO     : Iter 13: overlap=8354    heapops=15990431   (77%) cpd=6574  frr=14.51  msec=4079
+INFO     : Iter 14: overlap=6712    heapops=17304448   (80%) cpd=453   frr=1.00  msec=5118
+INFO     : Iter 15: overlap=5384    heapops=19411970   (82%) cpd=6553  frr=14.47  msec=5838
+INFO     : Iter 16: overlap=4491    heapops=21884905   (83%) cpd=6538  frr=14.43  msec=6805
+INFO     : Iter 17: overlap=3585    heapops=22360280   (84%) cpd=6571  frr=14.51  msec=7145
+INFO     : Iter 18: overlap=2797    heapops=23448735   (86%) cpd=6558  frr=14.48  msec=7804
+INFO     : Iter 19: overlap=2142    heapops=23791417   (87%) cpd=6549  frr=14.46  msec=8673
+INFO     : [Rebuild Parallel Routing Scheduler]
+INFO     : Iter 20: overlap=1618    heapops=21392102   (88%) cpd=6538  frr=14.43  msec=7718
+INFO     : Iter 21: overlap=1156    heapops=21019395   (88%) cpd=6566  frr=14.49  msec=7871
+INFO     : Iter 22: overlap=781     heapops=17517632   (89%) cpd=6579  frr=14.52  msec=6561
+INFO     : Iter 23: overlap=615     heapops=14227252   (89%) cpd=6579  frr=14.52  msec=5535
+INFO     : Iter 24: overlap=477     heapops=12493371   (90%) cpd=6632  frr=14.64  msec=4975
+INFO     : Iter 25: overlap=334     heapops=11060568   (90%) cpd=6579  frr=14.52  msec=4333
+INFO     : Iter 26: overlap=269     heapops=9095956    (90%) cpd=6645  frr=14.67  msec=3719
+INFO     : Iter 27: overlap=223     heapops=9388518    (89%) cpd=6582  frr=14.53  msec=3995
+INFO     : [Rebuild Parallel Routing Scheduler]
+INFO     : Iter 28: overlap=171     heapops=7669381    (90%) cpd=6624  frr=14.62  msec=3378
+INFO     : Iter 29: overlap=125     heapops=7185869    (90%) cpd=6755  frr=14.91  msec=3125
+INFO     : Iter 30: overlap=89      heapops=5118990    (90%) cpd=6582  frr=14.53  msec=2234
+INFO     : Iter 31: overlap=83      heapops=4320567    (90%) cpd=6650  frr=14.68  msec=1994
+INFO     : Iter 32: overlap=56      heapops=5704417    (90%) cpd=6789  frr=14.99  msec=2507
+INFO     : Iter 33: overlap=76      heapops=4318293    (90%) cpd=6582  frr=14.53  msec=1975
+INFO     : Iter 34: overlap=38      heapops=4291591    (90%) cpd=6750  frr=14.90  msec=1958
+INFO     : Iter 35: overlap=36      heapops=3839697    (90%) cpd=6711  frr=14.81  msec=1817
+INFO     : Iter 36: overlap=24      heapops=3628169    (90%) cpd=6637  frr=14.65  msec=1734
+INFO     : Iter 37: overlap=13      heapops=2850603    (90%) cpd=6652  frr=14.68  msec=1451
+INFO     : Iter 38: overlap=9       heapops=2175912    (90%) cpd=6652  frr=14.68  msec=1114
+INFO     : Iter 39: overlap=4       heapops=2142966    (90%) cpd=6652  frr=14.68  msec=1091
+INFO     : Iter 40: overlap=3       heapops=1929530    (90%) cpd=6652  frr=14.68  msec=1010
+INFO     : Iter 41: overlap=11      heapops=1907212    (90%) cpd=6652  frr=14.68  msec=1030
+INFO     : Iter 42: overlap=2       heapops=1924729    (90%) cpd=6652  frr=14.68  msec=1051
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Beneficial skew enabled! Optimizing clock skews ... 
+INFO     : Non-legalized beneficial skew improved geomean CPD by 0.00% (from 4386ps to 4386ps)
+INFO     : CSS improved CPD of clock csi_rxc_i by 0.00% (from 4683ps to 4683ps)
+INFO     : CSS improved CPD of clock jtag_inst1_TCK by 0.00% (from 10177ps to 10177ps)
+INFO     : CSS improved CPD of clock clk_sys by 0.00% (from 8589ps to 8589ps)
+INFO     : CSS improved CPD of clock tdqss_clk by 0.00% (from 2120ps to 2120ps)
+INFO     : CSS improved CPD of clock core_clk by 0.00% (from 4625ps to 4625ps)
+INFO     : CSS improved CPD of clock tac_clk by 0.00% (from 2298ps to 2298ps)
+INFO     : CSS improved CPD of clock twd_clk by 2.24% (from 2234ps to 2184ps)
+INFO     : CSS improved CPD of clock clk_pixel_2x by 1.26% (from 6652ps to 6568ps)
+INFO     : Discretized beneficial skew improved geomean CPD by 0.43% (from 4386ps to 4367ps in 1 iterations and 1.2 sec)
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Iter 43: overlap=0       heapops=1850245    (90%) cpd=6568  frr=14.50  msec=2149
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Routing Result
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Routing Succeeded in 161.13 seconds taking 43 iterations! 
+INFO     : 
+INFO     : First iteration critical path delay = 0.453 ns 
+INFO     : Last iteration critical path delay  = 6.568 ns (ratio = 14.50)
+INFO     : Max Routing Heap Size = 100,005
+INFO     : Routing trace written to file 'outflow\edge_camera_v10.troutingtraces' 
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Routing took 164.4579235 seconds [FlowMsg::StageDuration]
+INFO     :     Routing took 487.265625 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Routing virtual memory usage: begin = 185.128 MB, end = 623.444 MB, delta = 438.316 MB [FlowMsg::VMUsage]
+INFO     :     Routing peak virtual memory usage = 673.892 MB [FlowMsg::VMUsage::Peak]
+INFO     : Routing resident set memory usage: begin = 205.52 MB, end = 622.532 MB, delta = 417.012 MB [FlowMsg::RSSUsage]
+INFO     :     Routing peak resident set memory usage = 654.244 MB [FlowMsg::RSSUsage::Peak]
+           ***** Beginning stage final timing analysis ... *****
+INFO     : Process the SDC file 'edge_camera_v10.sdc' ...
+INFO     : [SDC E:/0Efinity_prj/question4_ti60_sc2210_version10/edge_camera_v10.sdc:6] create_clock: No pin(s)/port(s)/net(s) specified, only virtual clock 'csi_dphy_byte' will be created. If you don't want this, please specify pin(s)/port(s)/net(s) to the command
+WARNING  : No ports matched 'jtag_inst1_DRCK'
+WARNING  : [SDC E:/0Efinity_prj/question4_ti60_sc2210_version10/edge_camera_v10.sdc:9] No valid pin(s) found for clock
+WARNING  : [SDC E:/0Efinity_prj/question4_ti60_sc2210_version10/edge_camera_v10.sdc:9] Unable to run 'create_clock' constraint due to warnings found
+INFO     : Process the SDC file 'outflow/edge_camera_v10.pt.sdc' ...
+WARNING  : No ports matched 'jtag_inst1_DRCK'
+WARNING  : [SDC E:/0Efinity_prj/question4_ti60_sc2210_version10/outflow/edge_camera_v10.pt.sdc:58] set_input_delay: No valid input port(s) found
+WARNING  : [SDC E:/0Efinity_prj/question4_ti60_sc2210_version10/outflow/edge_camera_v10.pt.sdc:58] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst1_DRCK'
+WARNING  : [SDC E:/0Efinity_prj/question4_ti60_sc2210_version10/outflow/edge_camera_v10.pt.sdc:59] set_input_delay: No valid input port(s) found
+WARNING  : [SDC E:/0Efinity_prj/question4_ti60_sc2210_version10/outflow/edge_camera_v10.pt.sdc:59] Unable to run 'set_input_delay' constraint due to warnings found
+INFO     : Process the SDC file 'cdc.sdc' ...
+WARNING  : [SDC E:/0Efinity_prj/question4_ti60_sc2210_version10/cdc.sdc:8] No clocks matched 'jtag_inst1_DRCK'
+Maximum possible analyzed clocks frequency
+  Clock Name   Period (ns)  Frequency (MHz)     Edge
+csi_rxc_i          4.809       207.943         (R-R)
+jtag_inst1_TCK    20.606        48.530         (F-R)
+clk_sys            8.715       114.745         (R-R)
+tdqss_clk          2.246       445.236         (R-R)
+core_clk           4.751       210.482         (R-R)
+tac_clk            2.424       412.541         (R-R)
+twd_clk            2.310       432.900         (R-R)
+clk_pixel_2x       6.694       149.388         (R-R)
+
+Geomean max period: 4.924
+
+Setup (Max) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+ csi_rxc_i        csi_rxc_i             6.000            1.191           (R-R)
+ csi_dphy_byte    csi_rxc_i             6.000            3.142           (R-R)
+ jtag_inst1_TCK   jtag_inst1_TCK      100.000           85.682           (R-R)
+ jtag_inst1_TCK   jtag_inst1_TCK       50.000           39.697           (F-R)
+ clk_sys          clk_sys              10.417            1.702           (R-R)
+ tdqss_clk        tdqss_clk             2.604            0.358           (R-R)
+ tdqss_clk        core_clk              2.604            2.213           (R-R)
+ core_clk         tdqss_clk             2.604            1.378           (R-R)
+ core_clk         core_clk              5.208            0.457           (R-R)
+ core_clk         tac_clk               2.604            2.056           (R-R)
+ core_clk         twd_clk               0.651            0.072           (R-R)
+ tac_clk          core_clk              2.604            2.194           (R-R)
+ tac_clk          tac_clk               2.604            0.180           (R-R)
+ twd_clk          core_clk              1.953            1.049           (R-R)
+ twd_clk          twd_clk               2.604            0.294           (R-R)
+ clk_pixel_2x     clk_pixel_2x          6.734            0.040           (R-R)
+
+Hold (Min) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+ csi_rxc_i        csi_rxc_i             0.000            0.031           (R-R)
+ csi_dphy_byte    csi_rxc_i             0.000            0.242           (R-R)
+ jtag_inst1_TCK   jtag_inst1_TCK        0.000            0.090           (R-R)
+ jtag_inst1_TCK   jtag_inst1_TCK      -50.000           48.794           (F-R)
+ clk_sys          clk_sys               0.000            0.035           (R-R)
+ tdqss_clk        tdqss_clk             0.000            0.092           (R-R)
+ tdqss_clk        core_clk              0.000            0.068           (R-R)
+ core_clk         tdqss_clk             0.000            0.159           (R-R)
+ core_clk         core_clk              0.000            0.030           (R-R)
+ core_clk         tac_clk               0.000            0.145           (R-R)
+ core_clk         twd_clk              -1.953            2.112           (R-R)
+ tac_clk          core_clk              0.000            0.058           (R-R)
+ tac_clk          tac_clk               0.000            0.027           (R-R)
+ twd_clk          core_clk             -0.651            0.726           (R-R)
+ twd_clk          twd_clk               0.000            0.052           (R-R)
+ clk_pixel_2x     clk_pixel_2x          0.000            0.030           (R-R)
+
+INFO     : Write Timing Report to "outflow\edge_camera_v10.timing.rpt" ...
+INFO     : final timing analysis took 3.0283666 seconds [FlowMsg::StageDuration]
+INFO     :     final timing analysis took 4.828125 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : final timing analysis virtual memory usage: begin = 516.852 MB, end = 708.42 MB, delta = 191.568 MB [FlowMsg::VMUsage]
+INFO     :     final timing analysis peak virtual memory usage = 708.42 MB [FlowMsg::VMUsage::Peak]
+INFO     : final timing analysis resident set memory usage: begin = 516.916 MB, end = 709.036 MB, delta = 192.12 MB [FlowMsg::RSSUsage]
+INFO     :     final timing analysis peak resident set memory usage = 709.036 MB [FlowMsg::RSSUsage::Peak]
+           ***** Ending stage final timing analysis *****
+           
+           ***** Beginning stage bitstream generation ... *****
+INFO     : Reading core interface constraints file "outflow\edge_camera_v10.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
+INFO     : Successfully read core interface constraints file "outflow\edge_camera_v10.interface.csv" [DBMsg::CoreInterfaceConstraintsFileLoadSuccess]
+INFO     : Finished writing bitstream file work_pnr\edge_camera_v10.lbf.
+INFO     : Bitstream generation took 1.9543679 seconds [FlowMsg::StageDuration]
+INFO     :     Bitstream generation took 1.71875 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Bitstream generation virtual memory usage: begin = 447.676 MB, end = 651.436 MB, delta = 203.76 MB [FlowMsg::VMUsage]
+INFO     :     Bitstream generation peak virtual memory usage = 708.42 MB [FlowMsg::VMUsage::Peak]
+INFO     : Bitstream generation resident set memory usage: begin = 451.06 MB, end = 655.748 MB, delta = 204.688 MB [FlowMsg::RSSUsage]
+INFO     :     Bitstream generation peak resident set memory usage = 709.072 MB [FlowMsg::RSSUsage::Peak]
+INFO     : The entire flow of EFX_PNR took 256.0148367 seconds [FlowMsg::StageDuration]
+INFO     :     The entire flow of EFX_PNR took 1370.8125 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : The entire flow of EFX_PNR virtual memory usage: begin = 20.148 MB, end = 651.116 MB, delta = 630.968 MB [FlowMsg::VMUsage]
+INFO     :     The entire flow of EFX_PNR peak virtual memory usage = 708.42 MB [FlowMsg::VMUsage::Peak]
+INFO     : The entire flow of EFX_PNR resident set memory usage: begin = 23.36 MB, end = 655.468 MB, delta = 632.108 MB [FlowMsg::RSSUsage]
+INFO     :     The entire flow of EFX_PNR peak resident set memory usage = 709.072 MB [FlowMsg::RSSUsage::Peak]
+Stage completed: pnr
+Running: efx_run_pgm.py edge_camera_v10 --family Titanium --device Ti60F225 --output_dir outflow --work_dir work_pnr --opt mode=active width=4 enable_roms=on spi_low_power_mode=off io_weak_pullup=on oscillator_clock_divider=DIV2 enable_crc_check=on bitstream_compression=on active_capture_clk_edge=negedge release_tri_then_reset=on enable_external_master_clock=off jtag_usercode=0xFFFFFFFF four_byte_addressing=off
+D:\Efinity\bin\efx_pgm.exe --interface_designer_settings outflow\edge_camera_v10_or.ini --periph outflow\edge_camera_v10.lpf --family Titanium --device Ti60F225 --source E:\0Efinity_prj\question4_ti60_sc2210_version10\work_pnr\edge_camera_v10.lbf --dest outflow\edge_camera_v10.hex --mode=active --width=4 --enable_roms=on --spi_low_power_mode=off --io_weak_pullup=on --oscillator_clock_divider=DIV2 --enable_crc_check=on --bitstream_compression=on --active_capture_clk_edge=negedge --release_tri_then_reset=on --enable_external_master_clock=off --jtag_usercode=0xFFFFFFFF --four_byte_addressing=off
+INFO     : Elitestek FPGA Bitstream Generator.
+INFO     : Version: 2026.1.132 
+INFO     : Copyright (C) 2013 - 2026 Efinix, Inc. All rights reserved.
+INFO     : Compiled: May 29 2026.
+INFO     : Using source file "E:\0Efinity_prj\question4_ti60_sc2210_version10\work_pnr\edge_camera_v10.lbf"
+INFO     : Generating HEX programming file for device "Ti60F225", family "Titanium"
+INFO     : Using periphery source file "outflow\edge_camera_v10.lpf"
+INFO     : Generating bit file: "outflow\edge_camera_v10.bit"
+INFO     : HEX Generation Options Summary:
+INFO     : 	Listing options specified to bitstream generation:
+INFO     : 	enable_crc_check                         = on
+INFO     : 	bitstream_compression                    = on
+INFO     : 	oscillator_clock_divider                 = DIV2
+INFO     : 	enable_external_master_clock             = off
+INFO     : 	spi_low_power_mode                       = off
+INFO     : 	active_capture_clk_edge                  = negedge
+INFO     : 	enable_remote_update                     = off
+INFO     : 	release_tri_then_reset                   = on
+INFO     : 	enable_seu_crc_check                     = off
+INFO     : 	seu_mode                                 = automatic
+INFO     : 	seu_wait_interval                        = 0xFFFFFF
+INFO     : 	jtag_usercode                            = 0xFFFFFFFF
+INFO     : 	io_weak_pullup                           = on
+INFO     : Finished generating "outflow\edge_camera_v10.hex"
+INFO     : Elitestek Bitstream Generator took 1.1824202 seconds [FlowMsg::StageDuration]
+INFO     :     Elitestek Bitstream Generator took 0.84375 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Elitestek Bitstream Generator virtual memory usage: begin = 2.72 MB, end = 12.16 MB, delta = 9.44 MB [FlowMsg::VMUsage]
+INFO     :     Elitestek Bitstream Generator peak virtual memory usage = 151.996 MB [FlowMsg::VMUsage::Peak]
+INFO     : Elitestek Bitstream Generator resident set memory usage: begin = 10.2 MB, end = 22.792 MB, delta = 12.592 MB [FlowMsg::RSSUsage]
+INFO     :     Elitestek Bitstream Generator peak resident set memory usage = 159.516 MB [FlowMsg::RSSUsage::Peak]
+Stage completed: pgm
+Running: export_bitstream.py hex_to_bin outflow\edge_camera_v10.bit outflow\edge_camera_v10.bit.bin
+Stage completed: export_bitstream
+Running: export_bitstream.py hex_to_bin outflow\edge_camera_v10.hex outflow\edge_camera_v10.hex.bin
+Stage completed: export_bitstream

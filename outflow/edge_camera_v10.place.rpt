@@ -1,0 +1,63 @@
+
+Elitestek FPGA Placement and Routing.
+Version: 2026.1.132 
+Date: Tue Nov  3 20:47:36 2026
+
+Copyright (C) 2013 - 2026 Efinix, Inc. All rights reserved.
+ 
+Family: Titanium 
+Device: Ti60F225
+Top-level Entity Name: edge_camera_v10
+
+---------- IO Interface Summary (begin) ----------
+
++------------------------+--------------+
+| Missing Interface Pins | Input/Output |
++------------------------+--------------+
+|    jtag_inst1_DRCK     |    Input     |
+|     jtag_inst1_TMS     |    Input     |
+|   jtag_inst1_RUNTEST   |    Input     |
+|       csi_ctl0_i       |    Input     |
+|       csi_ctl1_i       |    Input     |
+|    csi_rxd2_lp_p_i     |    Input     |
+|    csi_rxd2_lp_n_i     |    Input     |
+|    csi_rxd3_lp_p_i     |    Input     |
+|    csi_rxd3_lp_n_i     |    Input     |
+|    csi_rxd1_lp_p_i     |    Input     |
+|    csi_rxd1_lp_n_i     |    Input     |
++------------------------+--------------+
+
+----------- IO Interface Summary (end) ----------
+
+
+---------- Module Resource Usage Distribution Estimates (begin) ----------
+
+'Module Resource Usage Distribution Estimates' table printed in: outflow\edge_camera_v10.hier_util.rpt
+
+----------- Module Resource Usage Distribution Estimates (end) ----------
+
+Elapsed time for packing: 0 hours 0 minutes 3 seconds
+---------- Resource Summary (begin) ----------
+Inputs: 104 / 1703 (6.11%)
+Outputs: 278 / 2267 (12.26%)
+Global Clocks (GBUF): 11 / 32 (34.38%)
+Regional Clocks (RBUF): 0 / 32 (0.00%)
+	RBUF: Core: 0 / 16 (0.00%)
+	RBUF: Periphery: 0 / 8 (0.00%)
+	RBUF: Multi-Region: 0 / 8 (0.00%)
+XLRs: 60712 / 60800 (99.86%)
+	XLRs needed for LUT4: 28392 / 60800 (46.70%)
+	XLRs needed for LUT4 + FF: 10501 / 60800 (17.27%)
+	XLRs needed for COMB4: 0 / 60800 (0.00%)
+	XLRs needed for COMB4 + FF: 0 / 60800 (0.00%)
+	XLRs needed for Adder: 4663 / 60800 (7.67%)
+	XLRs needed for Adder + FF: 1071 / 60800 (1.76%)
+	XLRs needed for SRL8: 637 / 14720 (4.33%)
+	XLRs needed for SRL8 + FF: 0 / 14720 (0.00%)
+	XLRs needed for FF: 15448 / 60800 (25.41%)
+	XLRs needed for Routing: 0 / 60800 (0.00%)
+Memory Blocks: 255 / 256 (99.61%)
+DSP Blocks: 17 / 160 (10.62%)
+---------- Resource Summary (end) ----------
+
+Elapsed time for placement: 0 hours 1 minutes 20 seconds

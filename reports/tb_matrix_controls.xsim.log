@@ -1,0 +1,124 @@
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/0Efinity_prj/question4_ti60_sc2210_version10/rtl/common/async_fifo.v" into library work
+INFO: [VRFC 10-311] analyzing module async_fifo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/0Efinity_prj/question4_ti60_sc2210_version10/rtl/common/reset_sync.v" into library work
+INFO: [VRFC 10-311] analyzing module reset_sync
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/0Efinity_prj/question4_ti60_sc2210_version10/rtl/common/v8_csi_lp_align.v" into library work
+INFO: [VRFC 10-311] analyzing module v8_csi_lp_align
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/0Efinity_prj/question4_ti60_sc2210_version10/rtl/common/v8_gearbox.v" into library work
+INFO: [VRFC 10-311] analyzing module v8_gearbox
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/0Efinity_prj/question4_ti60_sc2210_version10/rtl/control/key_controls.v" into library work
+INFO: [VRFC 10-311] analyzing module key_debounce
+INFO: [VRFC 10-311] analyzing module key_controls
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/0Efinity_prj/question4_ti60_sc2210_version10/rtl/control/matrix_controls.v" into library work
+INFO: [VRFC 10-311] analyzing module matrix_controls
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/0Efinity_prj/question4_ti60_sc2210_version10/rtl/control/matrix_keypad.v" into library work
+INFO: [VRFC 10-311] analyzing module matrix_keypad
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/0Efinity_prj/question4_ti60_sc2210_version10/rtl/control/v8_controls.v" into library work
+INFO: [VRFC 10-311] analyzing module v8_controls
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/0Efinity_prj/question4_ti60_sc2210_version10/rtl/control/v8_playback_control.v" into library work
+INFO: [VRFC 10-311] analyzing module v8_playback_control
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/0Efinity_prj/question4_ti60_sc2210_version10/rtl/control/v8_sevenseg_status.v" into library work
+INFO: [VRFC 10-311] analyzing module v8_sevenseg_status
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/0Efinity_prj/question4_ti60_sc2210_version10/rtl/memory/axi_burst_bridge.v" into library work
+INFO: [VRFC 10-311] analyzing module axi_burst_bridge
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/0Efinity_prj/question4_ti60_sc2210_version10/rtl/memory/v8_burst_reverse.v" into library work
+INFO: [VRFC 10-311] analyzing module v8_burst_reverse
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/0Efinity_prj/question4_ti60_sc2210_version10/rtl/memory/v8_frame_store.v" into library work
+INFO: [VRFC 10-311] analyzing module v8_frame_store
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/0Efinity_prj/question4_ti60_sc2210_version10/rtl/video/bayer_rgb.v" into library work
+INFO: [VRFC 10-311] analyzing module bayer_rgb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/0Efinity_prj/question4_ti60_sc2210_version10/rtl/video/camera_pack.v" into library work
+INFO: [VRFC 10-311] analyzing module camera_pack
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/0Efinity_prj/question4_ti60_sc2210_version10/rtl/video/median9_pipe.v" into library work
+INFO: [VRFC 10-311] analyzing module median9_pipe
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/0Efinity_prj/question4_ti60_sc2210_version10/rtl/video/rgb_to_y8.v" into library work
+INFO: [VRFC 10-311] analyzing module rgb_to_y8
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/0Efinity_prj/question4_ti60_sc2210_version10/rtl/video/sc2210_raw8_unpack.v" into library work
+INFO: [VRFC 10-311] analyzing module sc2210_raw8_unpack
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/0Efinity_prj/question4_ti60_sc2210_version10/rtl/video/v8_components.v" into library work
+INFO: [VRFC 10-311] analyzing module v8_components
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/0Efinity_prj/question4_ti60_sc2210_version10/rtl/video/v8_diagnostic_display.v" into library work
+INFO: [VRFC 10-311] analyzing module v8_diagnostic_display
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/0Efinity_prj/question4_ti60_sc2210_version10/rtl/video/v8_frontend.v" into library work
+INFO: [VRFC 10-311] analyzing module v8_frontend
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/0Efinity_prj/question4_ti60_sc2210_version10/rtl/video/v8_hdmi_display.v" into library work
+INFO: [VRFC 10-311] analyzing module v8_hdmi_display
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/0Efinity_prj/question4_ti60_sc2210_version10/rtl/video/v8_hysteresis.v" into library work
+INFO: [VRFC 10-311] analyzing module v8_hysteresis
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/0Efinity_prj/question4_ti60_sc2210_version10/rtl/video/v8_label_scale.v" into library work
+INFO: [VRFC 10-311] analyzing module v8_label_scale
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/0Efinity_prj/question4_ti60_sc2210_version10/rtl/video/v8_processor_io.v" into library work
+INFO: [VRFC 10-311] analyzing module v8_processor_io
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/0Efinity_prj/question4_ti60_sc2210_version10/rtl/video/v8_rgb_diagnostics.v" into library work
+INFO: [VRFC 10-311] analyzing module v8_rgb_diagnostics
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/0Efinity_prj/question4_ti60_sc2210_version10/rtl/video/v8_scale.v" into library work
+INFO: [VRFC 10-311] analyzing module v8_scale
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/0Efinity_prj/question4_ti60_sc2210_version10/rtl/video/v8_shape_detector.v" into library work
+INFO: [VRFC 10-311] analyzing module v8_shape_detector
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/0Efinity_prj/question4_ti60_sc2210_version10/rtl/video/v8_shape_edges.v" into library work
+INFO: [VRFC 10-311] analyzing module v8_shape_edges
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/0Efinity_prj/question4_ti60_sc2210_version10/rtl/video/v8_shape_font.v" into library work
+INFO: [VRFC 10-311] analyzing module v8_shape_font
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/0Efinity_prj/question4_ti60_sc2210_version10/rtl/video/v8_shape_overlay.v" into library work
+INFO: [VRFC 10-311] analyzing module v8_shape_overlay
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/0Efinity_prj/question4_ti60_sc2210_version10/rtl/video/v8_shape_ram.v" into library work
+INFO: [VRFC 10-311] analyzing module v8_shape_ram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/0Efinity_prj/question4_ti60_sc2210_version10/rtl/video/v8_shape_tracker.v" into library work
+INFO: [VRFC 10-311] analyzing module v8_shape_tracker
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/0Efinity_prj/question4_ti60_sc2210_version10/rtl/video/v8_sobel_support.v" into library work
+INFO: [VRFC 10-311] analyzing module v8_sobel_support
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/0Efinity_prj/question4_ti60_sc2210_version10/rtl/video/v8_white_balance.v" into library work
+INFO: [VRFC 10-311] analyzing module v8_white_balance
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/0Efinity_prj/question4_ti60_sc2210_version10/rtl/video/v9_camera_fps.v" into library work
+INFO: [VRFC 10-311] analyzing module v9_camera_fps
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/0Efinity_prj/question4_ti60_sc2210_version10/rtl/video/v9_fps_overlay.v" into library work
+INFO: [VRFC 10-311] analyzing module v9_fps_overlay
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/0Efinity_prj/question4_ti60_sc2210_version10/rtl/video/v9_presented_fps.v" into library work
+INFO: [VRFC 10-311] analyzing module v9_presented_fps
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/0Efinity_prj/question4_ti60_sc2210_version10/rtl/video/window3x3.v" into library work
+INFO: [VRFC 10-311] analyzing module window3x3
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/0Efinity_prj/question4_ti60_sc2210_version10/sim/tb_matrix_controls.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_matrix_controls
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/0Efinity_prj/question4_ti60_sc2210_version10/sim/efinix/efx_ram10.v" into library work
+INFO: [VRFC 10-311] analyzing module EFX_RAM10
+
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe tb_matrix_controls -s tb_matrix_controls_v10 --mt 2 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.matrix_keypad(COLUMN_CYCLES=32,R...
+Compiling module work.matrix_controls(COLUMN_CYCLES=32...
+Compiling module work.key_debounce(CYCLES=8)
+Compiling module work.key_controls(DEBOUNCE_CYCLES=8)
+Compiling module work.tb_matrix_controls
+Built simulation snapshot tb_matrix_controls_v10
+
+ECHO is off.
+ECHO is off.
+
+****** xsim v2023.1 (64-bit)
+  **** SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+  **** IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+  **** SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/tb_matrix_controls_v10/xsim_script.tcl
+# xsim {tb_matrix_controls_v10} -autoloadwcfg -runall -onfinish quit -onerror quit
+Time resolution is 1 ps
+run -all
+PASS matrix controls: 16 positions, mapping, median, debounce, long hold, ghosting, partial release, startup, board keys
+$finish called at time : 743457 ns : File "E:/0Efinity_prj/question4_ti60_sc2210_version10/sim/tb_matrix_controls.sv" Line 122
+exit 0
+INFO: [Common 17-206] Exiting xsim at Tue Nov  3 20:48:00 2026...
